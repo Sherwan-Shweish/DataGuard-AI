@@ -1,0 +1,29 @@
+# Synchron mit pyproject.toml (Agenten-Standard v1: uv ist die führende Quelle)
+# --- Kern ---
+pydantic>=2.7,<3
+python-dotenv>=1.0
+rapidfuzz>=3.9           # Ähnlichkeitsmaße der Dublettenerkennung
+
+# --- LLM-Anbieter (optional – ohne Key läuft der Offline-Modus) ---
+anthropic>=0.60
+google-genai>=1.20
+
+# --- Daten, Cockpit & Export ---
+pandas>=2.2
+numpy>=1.26
+streamlit>=1.50
+altair>=5.4
+pyarrow>=16
+pillow>=10.0
+openpyxl>=3.1
+reportlab>=4.2
+python-pptx>=1.0
+matplotlib>=3.8          # Diagramme des Readiness-Berichts
+
+# --- Desktop-App (Agenten-Standard v1, nur macOS) ---
+pywebview>=5.3; sys_platform == 'darwin'
+
+# --- Tests (python-stdnum nur als Gegentest) ---
+pytest>=8.0
+python-stdnum>=1.20
+pypdf>=6.21              # nur Tests: Textprüfung des PDF-Berichts

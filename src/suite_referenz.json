@@ -1,0 +1,461 @@
+{
+ "stichtag": "2026-09-30",
+ "quellen": {
+  "varianceai": "VarianceAI 1.2, src/seed_data.erzeuge_daten(seed=42); Ist, Erlöskonto 800000, ohne Demonstrationsdublette 9099999999, Buchungsdatum ≤ 2026-09-30",
+  "flowaudit": "FlowAudit-AI 1.2.1, src/seed_data.LIEFERANTEN, KAEUFER, BANKAENDERUNGEN; IBAN mit src/seed_data._iban; USt-IdNr. mit src/einvoice_parser.ust_id_de_gueltig",
+  "controllai": "ControllAI 2.2.1, src/seed_data.erzeuge_alles(seed=42), Tabelle umsatz_transaktionen 2025 ohne Ausreißer; Branche aus Tabelle kunden"
+ },
+ "firma": {
+  "name": "RheinMain Industrietechnik GmbH",
+  "strasse": "Mainzer Straße 120",
+  "plz": "65189",
+  "ort": "Wiesbaden",
+  "buchungskreis": "1000"
+ },
+ "debitoren": [
+  {
+   "kunnr": "K101",
+   "name": "Hanse Fördertechnik GmbH",
+   "region": "NORD",
+   "umsatz_2025_cent": 948671497,
+   "hk_2025_cent": 423031039,
+   "letzte_faktura": "2026-09-03",
+   "letzte_faktura_je_monatsende": {
+    "2025-10-31": "2025-10-08",
+    "2025-11-30": "2025-11-25",
+    "2025-12-31": "2025-12-09",
+    "2026-01-31": "2026-01-22",
+    "2026-02-28": "2026-02-05",
+    "2026-03-31": "2026-03-15",
+    "2026-04-30": "2026-04-18",
+    "2026-05-31": "2026-05-16",
+    "2026-06-30": "2026-06-12",
+    "2026-07-31": "2026-07-24",
+    "2026-08-31": "2026-08-10",
+    "2026-09-30": "2026-09-03"
+   },
+   "branche": "Maschinenbau"
+  },
+  {
+   "kunnr": "K102",
+   "name": "Weser Anlagenbau AG",
+   "region": "NORD",
+   "umsatz_2025_cent": 758523105,
+   "hk_2025_cent": 338265689,
+   "letzte_faktura": "2026-09-20",
+   "letzte_faktura_je_monatsende": {
+    "2025-10-31": "2025-10-07",
+    "2025-11-30": "2025-11-05",
+    "2025-12-31": "2025-12-06",
+    "2026-01-31": "2026-01-26",
+    "2026-02-28": "2026-02-18",
+    "2026-03-31": "2026-03-13",
+    "2026-04-30": "2026-04-20",
+    "2026-05-31": "2026-05-24",
+    "2026-06-30": "2026-06-03",
+    "2026-07-31": "2026-07-19",
+    "2026-08-31": "2026-08-21",
+    "2026-09-30": "2026-09-20"
+   },
+   "branche": "Energie"
+  },
+  {
+   "kunnr": "K103",
+   "name": "Elbe Automation KG",
+   "region": "NORD",
+   "umsatz_2025_cent": 591834078,
+   "hk_2025_cent": 263895241,
+   "letzte_faktura": "2026-09-25",
+   "letzte_faktura_je_monatsende": {
+    "2025-10-31": "2025-10-27",
+    "2025-11-30": "2025-11-24",
+    "2025-12-31": "2025-12-07",
+    "2026-01-31": "2026-01-21",
+    "2026-02-28": "2026-02-18",
+    "2026-03-31": "2026-03-11",
+    "2026-04-30": "2026-04-28",
+    "2026-05-31": "2026-05-25",
+    "2026-06-30": "2026-06-12",
+    "2026-07-31": "2026-07-08",
+    "2026-08-31": "2026-08-15",
+    "2026-09-30": "2026-09-25"
+   },
+   "branche": "Chemie"
+  },
+  {
+   "kunnr": "K104",
+   "name": "Nordwind Maschinen GmbH",
+   "region": "NORD",
+   "umsatz_2025_cent": 407620258,
+   "hk_2025_cent": 181802991,
+   "letzte_faktura": "2026-09-27",
+   "letzte_faktura_je_monatsende": {
+    "2025-10-31": "2025-10-21",
+    "2025-11-30": "2025-11-07",
+    "2025-12-31": "2025-12-17",
+    "2026-01-31": "2026-01-11",
+    "2026-02-28": "2026-02-21",
+    "2026-03-31": "2026-03-08",
+    "2026-04-30": "2026-04-14",
+    "2026-05-31": "2026-05-12",
+    "2026-06-30": "2026-06-07",
+    "2026-07-31": "2026-07-11",
+    "2026-08-31": "2026-08-22",
+    "2026-09-30": "2026-09-27"
+   },
+   "branche": "Lebensmittelindustrie"
+  },
+  {
+   "kunnr": "K201",
+   "name": "Alpen Antriebstechnik GmbH",
+   "region": "SUED",
+   "umsatz_2025_cent": 1135588287,
+   "hk_2025_cent": 506864840,
+   "letzte_faktura": "2026-09-12",
+   "letzte_faktura_je_monatsende": {
+    "2025-10-31": "2025-10-22",
+    "2025-11-30": "2025-11-26",
+    "2025-12-31": "2025-12-22",
+    "2026-01-31": "2026-01-08",
+    "2026-02-28": "2026-02-15",
+    "2026-03-31": "2026-03-19",
+    "2026-04-30": "2026-04-13",
+    "2026-05-31": "2026-05-09",
+    "2026-06-30": "2026-06-08",
+    "2026-07-31": "2026-07-17",
+    "2026-08-31": "2026-08-13",
+    "2026-09-30": "2026-09-12"
+   },
+   "branche": "Lebensmittelindustrie"
+  },
+  {
+   "kunnr": "K202",
+   "name": "Neckar Werkzeugmaschinen AG",
+   "region": "SUED",
+   "umsatz_2025_cent": 910892062,
+   "hk_2025_cent": 406338497,
+   "letzte_faktura": "2026-09-21",
+   "letzte_faktura_je_monatsende": {
+    "2025-10-31": "2025-10-06",
+    "2025-11-30": "2025-11-03",
+    "2025-12-31": "2025-12-08",
+    "2026-01-31": "2026-01-16",
+    "2026-02-28": "2026-02-16",
+    "2026-03-31": "2026-03-03",
+    "2026-04-30": "2026-04-25",
+    "2026-05-31": "2026-05-08",
+    "2026-06-30": "2026-06-01",
+    "2026-07-31": "2026-07-14",
+    "2026-08-31": "2026-08-17",
+    "2026-09-30": "2026-09-21"
+   },
+   "branche": "Logistik"
+  },
+  {
+   "kunnr": "K203",
+   "name": "Isar Robotics GmbH",
+   "region": "SUED",
+   "umsatz_2025_cent": 715739775,
+   "hk_2025_cent": 319234547,
+   "letzte_faktura": "2026-09-02",
+   "letzte_faktura_je_monatsende": {
+    "2025-10-31": "2025-10-12",
+    "2025-11-30": "2025-11-24",
+    "2025-12-31": "2025-12-07",
+    "2026-01-31": "2026-01-24",
+    "2026-02-28": "2026-02-14",
+    "2026-03-31": "2026-03-01",
+    "2026-04-30": "2026-04-28",
+    "2026-05-31": "2026-05-02",
+    "2026-06-30": "2026-06-11",
+    "2026-07-31": "2026-07-02",
+    "2026-08-31": "2026-08-14",
+    "2026-09-30": "2026-09-02"
+   },
+   "branche": "Maschinenbau"
+  },
+  {
+   "kunnr": "K204",
+   "name": "Bodensee Verpackungstechnik KG",
+   "region": "SUED",
+   "umsatz_2025_cent": 486055269,
+   "hk_2025_cent": 216673102,
+   "letzte_faktura": "2026-09-13",
+   "letzte_faktura_je_monatsende": {
+    "2025-10-31": "2025-10-12",
+    "2025-11-30": "2025-11-08",
+    "2025-12-31": "2025-12-06",
+    "2026-01-31": "2026-01-21",
+    "2026-02-28": "2026-02-08",
+    "2026-03-31": "2026-03-20",
+    "2026-04-30": "2026-04-04",
+    "2026-05-31": "2026-05-13",
+    "2026-06-30": "2026-06-16",
+    "2026-07-31": "2026-07-17",
+    "2026-08-31": "2026-08-16",
+    "2026-09-30": "2026-09-13"
+   },
+   "branche": "Energie"
+  },
+  {
+   "kunnr": "K301",
+   "name": "Rheinland Industrieanlagen GmbH",
+   "region": "WEST",
+   "umsatz_2025_cent": 852785335,
+   "hk_2025_cent": 380434192,
+   "letzte_faktura": "2026-09-12",
+   "letzte_faktura_je_monatsende": {
+    "2025-10-31": "2025-10-14",
+    "2025-11-30": "2025-11-18",
+    "2025-12-31": "2025-12-19",
+    "2026-01-31": "2026-01-15",
+    "2026-02-28": "2026-02-25",
+    "2026-03-31": "2026-03-03",
+    "2026-04-30": "2026-04-07",
+    "2026-05-31": "2026-05-05",
+    "2026-06-30": "2026-06-15",
+    "2026-07-31": "2026-07-19",
+    "2026-08-31": "2026-08-19",
+    "2026-09-30": "2026-09-12"
+   },
+   "branche": "Automobilzulieferer"
+  },
+  {
+   "kunnr": "K302",
+   "name": "Ruhr Stahlbau AG",
+   "region": "WEST",
+   "umsatz_2025_cent": 679278858,
+   "hk_2025_cent": 302944864,
+   "letzte_faktura": "2026-09-22",
+   "letzte_faktura_je_monatsende": {
+    "2025-10-31": "2025-10-16",
+    "2025-11-30": "2025-11-24",
+    "2025-12-31": "2025-12-05",
+    "2026-01-31": "2026-01-05",
+    "2026-02-28": "2026-02-01",
+    "2026-03-31": "2026-03-23",
+    "2026-04-30": "2026-04-23",
+    "2026-05-31": "2026-05-18",
+    "2026-06-30": "2026-06-07",
+    "2026-07-31": "2026-07-04",
+    "2026-08-31": "2026-08-03",
+    "2026-09-30": "2026-09-22"
+   },
+   "branche": "Maschinenbau"
+  },
+  {
+   "kunnr": "K303",
+   "name": "Mosel Prozesstechnik GmbH",
+   "region": "WEST",
+   "umsatz_2025_cent": 534712298,
+   "hk_2025_cent": 238673989,
+   "letzte_faktura": "2026-09-19",
+   "letzte_faktura_je_monatsende": {
+    "2025-10-31": "2025-10-12",
+    "2025-11-30": "2025-11-13",
+    "2025-12-31": "2025-12-02",
+    "2026-01-31": "2026-01-27",
+    "2026-02-28": "2026-02-11",
+    "2026-03-31": "2026-03-16",
+    "2026-04-30": "2026-04-17",
+    "2026-05-31": "2026-05-13",
+    "2026-06-30": "2026-06-19",
+    "2026-07-31": "2026-07-21",
+    "2026-08-31": "2026-08-02",
+    "2026-09-30": "2026-09-19"
+   },
+   "branche": "Chemie"
+  },
+  {
+   "kunnr": "K304",
+   "name": "Eifel Fördersysteme KG",
+   "region": "WEST",
+   "umsatz_2025_cent": 365606174,
+   "hk_2025_cent": 162948454,
+   "letzte_faktura": "2026-09-02",
+   "letzte_faktura_je_monatsende": {
+    "2025-10-31": "2025-10-28",
+    "2025-11-30": "2025-11-07",
+    "2025-12-31": "2025-12-11",
+    "2026-01-31": "2026-01-14",
+    "2026-02-28": "2026-02-13",
+    "2026-03-31": "2026-03-20",
+    "2026-04-30": "2026-04-20",
+    "2026-05-31": "2026-05-06",
+    "2026-06-30": "2026-06-14",
+    "2026-07-31": "2026-07-10",
+    "2026-08-31": "2026-08-15",
+    "2026-09-30": "2026-09-02"
+   },
+   "branche": "Logistik"
+  }
+ ],
+ "kostenstellen": [
+  {
+   "kostenstelle": "4100",
+   "bezeichnung": "Gießerei"
+  },
+  {
+   "kostenstelle": "4200",
+   "bezeichnung": "Montage"
+  },
+  {
+   "kostenstelle": "4300",
+   "bezeichnung": "Lackiererei"
+  },
+  {
+   "kostenstelle": "4400",
+   "bezeichnung": "Instandhaltung"
+  },
+  {
+   "kostenstelle": "4500",
+   "bezeichnung": "Qualitätssicherung"
+  }
+ ],
+ "produktgruppen": [
+  {
+   "produktgruppe": "ANT",
+   "bezeichnung": "Antriebe"
+  },
+  {
+   "produktgruppe": "STE",
+   "bezeichnung": "Steuerungen"
+  },
+  {
+   "produktgruppe": "SEN",
+   "bezeichnung": "Sensorik"
+  }
+ ],
+ "regionen": [
+  {
+   "region": "NORD",
+   "bezeichnung": "Nord"
+  },
+  {
+   "region": "SUED",
+   "bezeichnung": "Süd"
+  },
+  {
+   "region": "WEST",
+   "bezeichnung": "West"
+  }
+ ],
+ "kontrollwerte": {
+  "umsatz_2025_summe_cent": 8387306996
+ },
+ "kreditoren": [
+  {
+   "lifnr": "100100",
+   "name": "Hessen Hydraulik GmbH",
+   "strasse": "Hanauer Landstraße 211",
+   "plz": "60314",
+   "ort": "Frankfurt am Main",
+   "land": "DE",
+   "ust_id": "DE214365872",
+   "email": "rechnung@hessen-hydraulik.example",
+   "blz": "50040000",
+   "konto": "0611223344",
+   "bic": "COBADEFFXXX",
+   "zterm": "ZB14",
+   "iban": "DE59500400000611223344"
+  },
+  {
+   "lifnr": "100200",
+   "name": "Taunus Präzisionsteile KG",
+   "strasse": "Industriestraße 8",
+   "plz": "61352",
+   "ort": "Bad Homburg v. d. Höhe",
+   "land": "DE",
+   "ust_id": "DE287654316",
+   "email": "buchhaltung@taunus-praezision.example",
+   "blz": "51250000",
+   "konto": "0004455667",
+   "bic": "HELADEF1TSK",
+   "zterm": "ZB30",
+   "iban": "DE20512500000004455667"
+  },
+  {
+   "lifnr": "100300",
+   "name": "Mainzer Elektrotechnik AG",
+   "strasse": "Rheinallee 77",
+   "plz": "55118",
+   "ort": "Mainz",
+   "land": "DE",
+   "ust_id": "DE149832767",
+   "email": "invoice@mainzer-elektro.example",
+   "blz": "55050120",
+   "konto": "0200300400",
+   "bic": "MALADE51MNZ",
+   "zterm": "ZB10",
+   "iban": "DE14550501200200300400"
+  },
+  {
+   "lifnr": "100400",
+   "name": "Rheingau Logistik & Verpackung GmbH",
+   "strasse": "Am Weinberg 3",
+   "plz": "65343",
+   "ort": "Eltville am Rhein",
+   "land": "DE",
+   "ust_id": "DE265437897",
+   "email": "faktura@rheingau-logistik.example",
+   "blz": "51050015",
+   "konto": "0123987654",
+   "bic": "NASSDE55XXX",
+   "zterm": "ZB30",
+   "iban": "DE46510500150123987654"
+  },
+  {
+   "lifnr": "100500",
+   "name": "Odenwald Industriebedarf GmbH",
+   "strasse": "Rheinstraße 40",
+   "plz": "64283",
+   "ort": "Darmstadt",
+   "land": "DE",
+   "ust_id": "DE231987458",
+   "email": "rechnungen@odenwald-bedarf.example",
+   "blz": "50850150",
+   "konto": "0007788990",
+   "bic": "HELADEF1DAS",
+   "zterm": "ZB30",
+   "iban": "DE25508501500007788990"
+  },
+  {
+   "lifnr": "100600",
+   "name": "Bürowelt Wiesbaden e.K.",
+   "strasse": "Wilhelmstraße 22",
+   "plz": "65183",
+   "ort": "Wiesbaden",
+   "land": "DE",
+   "ust_id": "DE298765120",
+   "email": "kasse@buerowelt-wiesbaden.example",
+   "blz": "51050015",
+   "konto": "0555666777",
+   "bic": "NASSDE55XXX",
+   "zterm": "ZB30",
+   "iban": "DE07510500150555666777"
+  }
+ ],
+ "eigene_ust_id": "DE812345673",
+ "bankaenderungen": [
+  {
+   "lifnr": "100400",
+   "datum": "2026-10-23",
+   "benutzer": "KRED_SACHB2",
+   "alte_iban_endung": "4711"
+  },
+  {
+   "lifnr": "100100",
+   "datum": "2026-04-01",
+   "benutzer": "KRED_SACHB1",
+   "alte_iban_endung": "0815"
+  }
+ ],
+ "abgleich_controllai": {
+  "ergebnis": "centgleich",
+  "kunden": 12,
+  "umsatz_2025_cent": 8387306996,
+  "hk_2025_cent": 3741107445,
+  "differenz_cent": 0
+ },
+ "flowaudit_stichtag": "2026-10-28"
+}

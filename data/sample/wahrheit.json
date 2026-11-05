@@ -1,0 +1,2235 @@
+{
+ "seed": 42,
+ "stichtag": "2026-09-30",
+ "hinweis": "Nur für Tests und Messung – die Prüf-Engines lesen diese Datei nie.",
+ "umfang": {
+  "DEBI": 896,
+  "KRED": 702
+ },
+ "kategorien": {
+  "aktiv": 18,
+  "laufend": 203,
+  "alt_gebucht": 1036,
+  "alt_nie": 243,
+  "neu": 98
+ },
+ "neuanlagen_12_monate": 97,
+ "befunde": {
+  "A01": [
+   "DEBI:200059",
+   "DEBI:200106",
+   "DEBI:200138",
+   "DEBI:200159",
+   "DEBI:200453",
+   "DEBI:200484",
+   "DEBI:200550",
+   "DEBI:200683",
+   "DEBI:200747",
+   "DEBI:200883",
+   "DEBI:200891",
+   "DEBI:200949",
+   "DEBI:201072",
+   "DEBI:201073",
+   "DEBI:201099",
+   "DEBI:201122",
+   "DEBI:201307",
+   "DEBI:201326",
+   "DEBI:201478",
+   "DEBI:201576",
+   "DEBI:201618",
+   "DEBI:201623",
+   "DEBI:201628",
+   "DEBI:201685",
+   "DEBI:201703",
+   "DEBI:201842",
+   "DEBI:201870",
+   "DEBI:201974",
+   "DEBI:202070",
+   "DEBI:202105",
+   "DEBI:202248",
+   "DEBI:202282",
+   "DEBI:202378",
+   "DEBI:202435",
+   "DEBI:202454",
+   "DEBI:202582",
+   "DEBI:202776",
+   "DEBI:202810",
+   "DEBI:203089",
+   "DEBI:203143",
+   "DEBI:203228",
+   "DEBI:203235",
+   "DEBI:203276",
+   "DEBI:203426",
+   "DEBI:203498",
+   "DEBI:203644",
+   "DEBI:203646",
+   "DEBI:203710",
+   "DEBI:203787",
+   "DEBI:203880",
+   "DEBI:204020",
+   "DEBI:204061",
+   "DEBI:204298",
+   "DEBI:204349",
+   "DEBI:204422",
+   "DEBI:204611",
+   "DEBI:204723",
+   "DEBI:204957",
+   "DEBI:205024",
+   "DEBI:205144",
+   "DEBI:205195",
+   "DEBI:205336",
+   "DEBI:205441",
+   "DEBI:205528",
+   "DEBI:205688",
+   "DEBI:205738",
+   "DEBI:205744",
+   "DEBI:205900",
+   "DEBI:205913",
+   "DEBI:205965",
+   "DEBI:205977",
+   "DEBI:206021",
+   "DEBI:206081",
+   "DEBI:206143",
+   "DEBI:206158",
+   "DEBI:206218",
+   "DEBI:206293",
+   "DEBI:206361",
+   "DEBI:206550",
+   "DEBI:206820",
+   "DEBI:206828",
+   "DEBI:206876",
+   "DEBI:206916",
+   "DEBI:206936",
+   "DEBI:206979",
+   "DEBI:207023",
+   "DEBI:207137",
+   "DEBI:207188",
+   "DEBI:207239",
+   "DEBI:207329",
+   "DEBI:207438",
+   "DEBI:207552",
+   "DEBI:207570",
+   "DEBI:207613",
+   "DEBI:207633",
+   "DEBI:207718",
+   "DEBI:207934",
+   "DEBI:208086",
+   "DEBI:208098",
+   "DEBI:208163",
+   "DEBI:208191",
+   "DEBI:208303",
+   "DEBI:208332",
+   "DEBI:208500",
+   "DEBI:208642",
+   "DEBI:208694",
+   "DEBI:208737",
+   "DEBI:208760",
+   "DEBI:208860",
+   "DEBI:208915",
+   "DEBI:209076",
+   "DEBI:209312",
+   "DEBI:209331",
+   "DEBI:209360",
+   "DEBI:209413",
+   "DEBI:209460",
+   "DEBI:209498",
+   "DEBI:209906",
+   "DEBI:209984",
+   "DEBI:210118",
+   "DEBI:210158",
+   "DEBI:210310",
+   "DEBI:210348",
+   "DEBI:210450",
+   "DEBI:210573",
+   "DEBI:210601",
+   "DEBI:210826",
+   "DEBI:210940",
+   "DEBI:210947",
+   "DEBI:211047",
+   "DEBI:211212",
+   "DEBI:211374",
+   "DEBI:211411",
+   "DEBI:211516",
+   "DEBI:211564",
+   "DEBI:211614",
+   "DEBI:211793",
+   "DEBI:211922",
+   "DEBI:212018",
+   "DEBI:212046",
+   "DEBI:212243",
+   "DEBI:212283",
+   "DEBI:212337",
+   "DEBI:212362",
+   "DEBI:212453",
+   "DEBI:212482",
+   "DEBI:212601",
+   "DEBI:212682",
+   "DEBI:212766",
+   "DEBI:212871",
+   "DEBI:212915",
+   "DEBI:213158",
+   "DEBI:213234",
+   "DEBI:213312",
+   "DEBI:213325",
+   "DEBI:213358",
+   "DEBI:213541",
+   "DEBI:213565",
+   "DEBI:213664",
+   "DEBI:213737",
+   "DEBI:213800",
+   "DEBI:213874",
+   "DEBI:214174",
+   "DEBI:214190",
+   "DEBI:214248",
+   "DEBI:214259",
+   "DEBI:214279",
+   "DEBI:214447",
+   "DEBI:214589",
+   "DEBI:214652",
+   "DEBI:214715",
+   "DEBI:214723",
+   "DEBI:214817",
+   "DEBI:214865",
+   "DEBI:214893",
+   "DEBI:214977",
+   "DEBI:215016",
+   "DEBI:215036",
+   "DEBI:215381",
+   "DEBI:215464",
+   "DEBI:215558",
+   "DEBI:215824",
+   "DEBI:215870",
+   "DEBI:215881",
+   "DEBI:216001",
+   "DEBI:216657",
+   "DEBI:216674",
+   "DEBI:216855",
+   "DEBI:216943",
+   "DEBI:217020",
+   "DEBI:217063",
+   "DEBI:217099",
+   "DEBI:217126",
+   "DEBI:217247",
+   "DEBI:217431",
+   "DEBI:217474",
+   "DEBI:217507",
+   "DEBI:217624",
+   "DEBI:217682",
+   "DEBI:217892",
+   "DEBI:217952",
+   "DEBI:218004",
+   "DEBI:218038",
+   "DEBI:218060",
+   "DEBI:219676",
+   "DEBI:220019",
+   "DEBI:220360",
+   "DEBI:220732",
+   "DEBI:220767",
+   "DEBI:290002",
+   "DEBI:290003",
+   "DEBI:290006",
+   "DEBI:290009",
+   "DEBI:290012",
+   "DEBI:290018",
+   "DEBI:290031",
+   "DEBI:290033",
+   "DEBI:290038",
+   "DEBI:290041",
+   "DEBI:290043",
+   "DEBI:290047",
+   "DEBI:290048",
+   "DEBI:290059",
+   "DEBI:290067",
+   "DEBI:290074",
+   "DEBI:290083",
+   "DEBI:290085",
+   "DEBI:290091",
+   "DEBI:290094",
+   "DEBI:290096",
+   "DEBI:290099",
+   "DEBI:290104",
+   "DEBI:290106",
+   "DEBI:290109",
+   "DEBI:290112",
+   "DEBI:290113",
+   "DEBI:290114",
+   "DEBI:290123",
+   "DEBI:290159",
+   "DEBI:290168",
+   "DEBI:290194",
+   "DEBI:290198",
+   "DEBI:290247",
+   "DEBI:290250",
+   "DEBI:300057",
+   "DEBI:300073",
+   "DEBI:300219",
+   "DEBI:300222",
+   "DEBI:300254",
+   "DEBI:300307",
+   "DEBI:300316",
+   "DEBI:300338",
+   "DEBI:300367",
+   "DEBI:300466",
+   "DEBI:300503",
+   "DEBI:300515",
+   "DEBI:300580",
+   "DEBI:300640",
+   "DEBI:900002",
+   "KRED:101037",
+   "KRED:101120",
+   "KRED:101425",
+   "KRED:101566",
+   "KRED:101619",
+   "KRED:101682",
+   "KRED:101751",
+   "KRED:101766",
+   "KRED:101977",
+   "KRED:102170",
+   "KRED:102204",
+   "KRED:102262",
+   "KRED:102310",
+   "KRED:102373",
+   "KRED:102487",
+   "KRED:102642",
+   "KRED:102749",
+   "KRED:102817",
+   "KRED:103053",
+   "KRED:103449",
+   "KRED:103508",
+   "KRED:103561",
+   "KRED:104300",
+   "KRED:104323",
+   "KRED:104699",
+   "KRED:104741",
+   "KRED:104870",
+   "KRED:104912",
+   "KRED:105004",
+   "KRED:105105",
+   "KRED:105129",
+   "KRED:105257",
+   "KRED:105359",
+   "KRED:105770",
+   "KRED:105819",
+   "KRED:105874",
+   "KRED:105975",
+   "KRED:105990",
+   "KRED:106033",
+   "KRED:106113",
+   "KRED:106132",
+   "KRED:106206",
+   "KRED:106514",
+   "KRED:106542",
+   "KRED:106890",
+   "KRED:106912",
+   "KRED:107033",
+   "KRED:107225",
+   "KRED:107283",
+   "KRED:107311",
+   "KRED:107451",
+   "KRED:107537",
+   "KRED:107606",
+   "KRED:107652",
+   "KRED:107732",
+   "KRED:107797",
+   "KRED:107945",
+   "KRED:108215",
+   "KRED:108291",
+   "KRED:108316",
+   "KRED:108464",
+   "KRED:108577",
+   "KRED:109242",
+   "KRED:109471",
+   "KRED:109493",
+   "KRED:109512",
+   "KRED:109696",
+   "KRED:109922",
+   "KRED:109964",
+   "KRED:109998",
+   "KRED:110143",
+   "KRED:110376",
+   "KRED:110442",
+   "KRED:110457",
+   "KRED:110711",
+   "KRED:110903",
+   "KRED:111106",
+   "KRED:111371",
+   "KRED:111470",
+   "KRED:111519",
+   "KRED:111547",
+   "KRED:111896",
+   "KRED:111970",
+   "KRED:112036",
+   "KRED:112163",
+   "KRED:112242",
+   "KRED:112470",
+   "KRED:112493",
+   "KRED:112589",
+   "KRED:112799",
+   "KRED:112879",
+   "KRED:112922",
+   "KRED:113213",
+   "KRED:113563",
+   "KRED:113801",
+   "KRED:113956",
+   "KRED:114271",
+   "KRED:114364",
+   "KRED:114577",
+   "KRED:114680",
+   "KRED:114767",
+   "KRED:115117",
+   "KRED:115141",
+   "KRED:115340",
+   "KRED:115370",
+   "KRED:115441",
+   "KRED:115683",
+   "KRED:115867",
+   "KRED:115975",
+   "KRED:116364",
+   "KRED:116502",
+   "KRED:117329",
+   "KRED:117569",
+   "KRED:117658",
+   "KRED:118083",
+   "KRED:118232",
+   "KRED:118266",
+   "KRED:118371",
+   "KRED:118454",
+   "KRED:118519",
+   "KRED:118841",
+   "KRED:118904",
+   "KRED:118950",
+   "KRED:118958",
+   "KRED:119088",
+   "KRED:119096",
+   "KRED:119231",
+   "KRED:119399",
+   "KRED:119664",
+   "KRED:119807",
+   "KRED:119900",
+   "KRED:119965",
+   "KRED:120195",
+   "KRED:120418",
+   "KRED:120443",
+   "KRED:123252",
+   "KRED:123332",
+   "KRED:123481",
+   "KRED:123581",
+   "KRED:123947",
+   "KRED:123976",
+   "KRED:124306",
+   "KRED:124584",
+   "KRED:124661",
+   "KRED:124699",
+   "KRED:190015",
+   "KRED:190029",
+   "KRED:190032",
+   "KRED:190037",
+   "KRED:190046",
+   "KRED:190060",
+   "KRED:190065",
+   "KRED:190071",
+   "KRED:190076",
+   "KRED:190080",
+   "KRED:190086",
+   "KRED:190089",
+   "KRED:190101",
+   "KRED:190114",
+   "KRED:190120",
+   "KRED:190129",
+   "KRED:190131",
+   "KRED:190145",
+   "KRED:190149",
+   "KRED:190154",
+   "KRED:190157",
+   "KRED:190160",
+   "KRED:190162",
+   "KRED:190189",
+   "KRED:700105",
+   "KRED:700159",
+   "KRED:700222",
+   "KRED:700240",
+   "KRED:910003"
+  ],
+  "A02": [
+   "DEBI:202612",
+   "DEBI:202968",
+   "DEBI:203443",
+   "DEBI:203910",
+   "DEBI:204730",
+   "DEBI:204882",
+   "DEBI:205008",
+   "DEBI:205207",
+   "DEBI:205290",
+   "DEBI:205383",
+   "DEBI:206119",
+   "DEBI:206221",
+   "DEBI:206319",
+   "DEBI:207013",
+   "DEBI:207409",
+   "DEBI:207668",
+   "DEBI:207957",
+   "DEBI:208042",
+   "DEBI:208968",
+   "DEBI:209551",
+   "DEBI:210265",
+   "DEBI:210401",
+   "DEBI:210491",
+   "DEBI:210735",
+   "DEBI:211093",
+   "DEBI:211136",
+   "DEBI:211213",
+   "DEBI:211608",
+   "DEBI:211687",
+   "DEBI:212814",
+   "DEBI:213389",
+   "DEBI:213845",
+   "DEBI:214318",
+   "DEBI:214389",
+   "DEBI:214494",
+   "DEBI:214685",
+   "DEBI:214859",
+   "DEBI:215132",
+   "DEBI:215322",
+   "DEBI:215707",
+   "DEBI:216339",
+   "DEBI:216596",
+   "DEBI:216960",
+   "DEBI:217531",
+   "DEBI:218181",
+   "DEBI:218219",
+   "DEBI:218277",
+   "DEBI:218323",
+   "DEBI:218346",
+   "DEBI:218366",
+   "DEBI:218392",
+   "DEBI:218510",
+   "DEBI:218534",
+   "DEBI:218538",
+   "DEBI:218567",
+   "DEBI:218624",
+   "DEBI:218697",
+   "DEBI:218782",
+   "DEBI:218821",
+   "DEBI:219626",
+   "DEBI:219965",
+   "DEBI:220192",
+   "DEBI:220322",
+   "DEBI:220416",
+   "DEBI:220447",
+   "DEBI:220564",
+   "DEBI:290056",
+   "DEBI:290088",
+   "DEBI:290122",
+   "DEBI:290151",
+   "DEBI:290157",
+   "DEBI:290162",
+   "DEBI:290174",
+   "DEBI:290207",
+   "DEBI:300128",
+   "DEBI:300130",
+   "DEBI:300165",
+   "DEBI:300238",
+   "DEBI:300339",
+   "DEBI:300508",
+   "DEBI:300694",
+   "KRED:103753",
+   "KRED:107996",
+   "KRED:108355",
+   "KRED:108611",
+   "KRED:110849",
+   "KRED:111782",
+   "KRED:112306",
+   "KRED:112656",
+   "KRED:112817",
+   "KRED:114318",
+   "KRED:114569",
+   "KRED:114595",
+   "KRED:115534",
+   "KRED:116778",
+   "KRED:116966",
+   "KRED:117793",
+   "KRED:117870",
+   "KRED:119427",
+   "KRED:120657",
+   "KRED:120848",
+   "KRED:121130",
+   "KRED:121157",
+   "KRED:121766",
+   "KRED:121932",
+   "KRED:121935",
+   "KRED:122017",
+   "KRED:122066",
+   "KRED:123873",
+   "KRED:124038",
+   "KRED:190097",
+   "KRED:190110",
+   "KRED:190111",
+   "KRED:190123",
+   "KRED:190156",
+   "KRED:190173"
+  ],
+  "A03": [
+   "DEBI:219434",
+   "DEBI:290216",
+   "KRED:190183"
+  ],
+  "A04": [
+   "KRED:106671"
+  ],
+  "E03": [
+   "KRED:100100",
+   "KRED:102170",
+   "KRED:103210",
+   "KRED:103244",
+   "KRED:103570",
+   "KRED:108072",
+   "KRED:108836",
+   "KRED:110711",
+   "KRED:112656",
+   "KRED:113720",
+   "KRED:115441",
+   "KRED:115822",
+   "KRED:119589",
+   "KRED:119678",
+   "KRED:123060",
+   "KRED:123332",
+   "KRED:123827",
+   "KRED:123873",
+   "KRED:124008",
+   "KRED:124038",
+   "KRED:124122",
+   "KRED:124190",
+   "KRED:124306",
+   "KRED:124323",
+   "KRED:124408",
+   "KRED:124442",
+   "KRED:124584",
+   "KRED:190092",
+   "KRED:190101",
+   "KRED:190162",
+   "KRED:190186",
+   "KRED:190189",
+   "KRED:190192"
+  ],
+  "E04": [
+   "DEBI:205290",
+   "DEBI:220322",
+   "DEBI:290033",
+   "DEBI:290096",
+   "DEBI:290239",
+   "DEBI:290250",
+   "KRED:100100",
+   "KRED:102170",
+   "KRED:103210",
+   "KRED:103244",
+   "KRED:103570",
+   "KRED:104570",
+   "KRED:105461",
+   "KRED:108072",
+   "KRED:108469",
+   "KRED:110711",
+   "KRED:112656",
+   "KRED:115822",
+   "KRED:123060",
+   "KRED:123332",
+   "KRED:123407",
+   "KRED:123479",
+   "KRED:123481",
+   "KRED:123827",
+   "KRED:123873",
+   "KRED:123947",
+   "KRED:123976",
+   "KRED:124008",
+   "KRED:124038",
+   "KRED:124122",
+   "KRED:124306",
+   "KRED:124323",
+   "KRED:124584",
+   "KRED:190092",
+   "KRED:190101",
+   "KRED:190186",
+   "KRED:190191",
+   "KRED:190192"
+  ],
+  "E05": [
+   "DEBI:219633",
+   "DEBI:219753",
+   "DEBI:219759",
+   "DEBI:219761",
+   "DEBI:219763",
+   "KRED:100300",
+   "KRED:106154",
+   "KRED:106671",
+   "KRED:111027",
+   "KRED:111400"
+  ],
+  "G01": [
+   "KRED:104392",
+   "KRED:105514",
+   "KRED:105722",
+   "KRED:106113",
+   "KRED:106912",
+   "KRED:190128"
+  ],
+  "G02": [
+   "DEBI:203058",
+   "KRED:105975",
+   "KRED:110917"
+  ],
+  "G03": [
+   "DEBI:216729",
+   "KRED:116711"
+  ],
+  "G04": [
+   "KRED:111188",
+   "KRED:120688",
+   "KRED:122163",
+   "KRED:122951"
+  ],
+  "G05": [
+   "DEBI:214589",
+   "DEBI:218219",
+   "KRED:105165",
+   "KRED:110207",
+   "KRED:120131",
+   "KRED:121872"
+  ],
+  "G06": [
+   "DEBI:212932",
+   "KRED:106033",
+   "KRED:107945",
+   "KRED:112371",
+   "KRED:119399"
+  ],
+  "G07": [
+   "DEBI:202031",
+   "DEBI:213375",
+   "KRED:102373",
+   "KRED:107096",
+   "KRED:108674",
+   "KRED:121650"
+  ],
+  "G08": [
+   "DEBI:204480",
+   "DEBI:205471",
+   "DEBI:215881",
+   "KRED:102334",
+   "KRED:110112",
+   "KRED:117036",
+   "KRED:190099",
+   "KRED:190166"
+  ],
+  "G09": [
+   "DEBI:202897",
+   "DEBI:212737",
+   "KRED:113508"
+  ],
+  "G10": [
+   "DEBI:203089",
+   "DEBI:205383",
+   "DEBI:217474",
+   "DEBI:217952",
+   "DEBI:219598",
+   "DEBI:219626",
+   "DEBI:300222",
+   "KRED:105747",
+   "KRED:106982",
+   "KRED:107652",
+   "KRED:108316",
+   "KRED:110143",
+   "KRED:115947"
+  ],
+  "G11": [
+   "DEBI:219378",
+   "KRED:108414",
+   "KRED:115642"
+  ],
+  "G12": [
+   "DEBI:211879",
+   "DEBI:219455"
+  ],
+  "G13": [
+   "KRED:104824",
+   "KRED:122613",
+   "KRED:190011"
+  ],
+  "G14": [
+   "DEBI:202070"
+  ],
+  "K01": [
+   "DEBI:206291",
+   "DEBI:210491",
+   "DEBI:214953",
+   "DEBI:218960",
+   "DEBI:219212",
+   "DEBI:219556"
+  ],
+  "K02": [
+   "DEBI:300010",
+   "DEBI:300029",
+   "DEBI:300049",
+   "DEBI:300057",
+   "DEBI:300069",
+   "DEBI:300073",
+   "DEBI:300106",
+   "DEBI:300128",
+   "DEBI:300130",
+   "DEBI:300144",
+   "DEBI:300162",
+   "DEBI:300165",
+   "DEBI:300189",
+   "DEBI:300219",
+   "DEBI:300222",
+   "DEBI:300238",
+   "DEBI:300246",
+   "DEBI:300254",
+   "DEBI:300274",
+   "DEBI:300307",
+   "DEBI:300316",
+   "DEBI:300337",
+   "DEBI:300338",
+   "DEBI:300339",
+   "DEBI:300360",
+   "DEBI:300367",
+   "DEBI:300394",
+   "DEBI:300431",
+   "DEBI:300466",
+   "DEBI:300503",
+   "DEBI:300508",
+   "DEBI:300515",
+   "DEBI:300550",
+   "DEBI:300580",
+   "DEBI:300607",
+   "DEBI:300640",
+   "DEBI:300677",
+   "DEBI:300694",
+   "DEBI:800053",
+   "DEBI:800105",
+   "DEBI:800138",
+   "DEBI:800148",
+   "DEBI:800188",
+   "DEBI:800190",
+   "DEBI:800210",
+   "DEBI:800247",
+   "KRED:700025",
+   "KRED:700105",
+   "KRED:700159",
+   "KRED:700183",
+   "KRED:700222",
+   "KRED:700240",
+   "KRED:700294",
+   "KRED:700348",
+   "KRED:700368",
+   "KRED:700428"
+  ],
+  "K03": [
+   "DEBI:290075",
+   "DEBI:290201",
+   "KRED:190125"
+  ],
+  "K04": [
+   "KRED:115340",
+   "KRED:121236"
+  ],
+  "K05": [
+   "DEBI:290228",
+   "DEBI:290230",
+   "KRED:218895",
+   "KRED:219301",
+   "KRED:219516",
+   "KRED:219558"
+  ],
+  "K06": [
+   "DEBI:218895",
+   "DEBI:219301",
+   "DEBI:219516",
+   "DEBI:219558",
+   "KRED:218895",
+   "KRED:219301",
+   "KRED:219516",
+   "KRED:219558"
+  ],
+  "K07": [
+   "DEBI:219050",
+   "DEBI:219768",
+   "DEBI:219777",
+   "DEBI:219780"
+  ],
+  "K08": [
+   "DEBI:215116",
+   "DEBI:300550",
+   "KRED:104512"
+  ],
+  "V01": [
+   "DEBI:209984",
+   "KRED:112379"
+  ],
+  "V02": [
+   "DEBI:207503",
+   "DEBI:207706",
+   "DEBI:290224",
+   "DEBI:900002",
+   "KRED:102633",
+   "KRED:105067",
+   "KRED:122625",
+   "KRED:910003"
+  ],
+  "V03": [
+   "DEBI:201685",
+   "DEBI:212134",
+   "DEBI:212971",
+   "DEBI:215430",
+   "KRED:102930",
+   "KRED:104755",
+   "KRED:111371",
+   "KRED:116296",
+   "KRED:190027",
+   "KRED:190095"
+  ],
+  "V04": [
+   "DEBI:203181",
+   "DEBI:210308",
+   "KRED:101184",
+   "KRED:103638"
+  ],
+  "V05": [
+   "DEBI:202612",
+   "DEBI:211687",
+   "KRED:101182"
+  ],
+  "V06": [
+   "DEBI:206158",
+   "DEBI:219065"
+  ],
+  "V07": [
+   "DEBI:219208",
+   "DEBI:219471",
+   "DEBI:290157",
+   "DEBI:300057",
+   "DEBI:300073",
+   "KRED:101952",
+   "KRED:111643",
+   "KRED:121056",
+   "KRED:121390",
+   "KRED:122334",
+   "KRED:190131",
+   "KRED:190147"
+  ],
+  "V08": [
+   "DEBI:290165",
+   "DEBI:290183",
+   "KRED:190006",
+   "KRED:190043",
+   "KRED:190046",
+   "KRED:190181"
+  ],
+  "V09": [
+   "DEBI:219626",
+   "DEBI:220075",
+   "DEBI:220276",
+   "DEBI:220368",
+   "DEBI:220370",
+   "DEBI:220416",
+   "DEBI:220447",
+   "DEBI:220614",
+   "DEBI:220767",
+   "KRED:123400",
+   "KRED:123777",
+   "KRED:123887",
+   "KRED:123944",
+   "KRED:124049",
+   "KRED:124132",
+   "KRED:124190",
+   "KRED:124226",
+   "KRED:124408",
+   "KRED:124442",
+   "KRED:124661"
+  ],
+  "V10": [
+   "KRED:104368",
+   "KRED:106438",
+   "KRED:110045",
+   "KRED:113981",
+   "KRED:118629",
+   "KRED:123138",
+   "KRED:123185",
+   "KRED:190005",
+   "KRED:190060",
+   "KRED:190074"
+  ],
+  "V11": [
+   "DEBI:203321",
+   "DEBI:204120",
+   "DEBI:204730",
+   "DEBI:206550",
+   "DEBI:211162",
+   "DEBI:211628",
+   "DEBI:216271",
+   "DEBI:219626",
+   "DEBI:290077",
+   "DEBI:290145",
+   "DEBI:290215",
+   "DEBI:800210",
+   "DEBI:900002",
+   "KRED:103121",
+   "KRED:105770",
+   "KRED:105925",
+   "KRED:109529",
+   "KRED:114732",
+   "KRED:114897",
+   "KRED:115766",
+   "KRED:118666",
+   "KRED:119166",
+   "KRED:121809",
+   "KRED:122482",
+   "KRED:122785",
+   "KRED:700428",
+   "KRED:910003"
+  ],
+  "V12": [
+   "DEBI:200309",
+   "DEBI:200949",
+   "DEBI:204645",
+   "DEBI:206494",
+   "DEBI:207343",
+   "DEBI:210118",
+   "DEBI:216855",
+   "DEBI:218060",
+   "DEBI:219324",
+   "DEBI:219619",
+   "DEBI:290089",
+   "DEBI:290113",
+   "DEBI:800148",
+   "DEBI:900002",
+   "DEBI:K304",
+   "KRED:107443",
+   "KRED:107912",
+   "KRED:110310",
+   "KRED:111570",
+   "KRED:112903",
+   "KRED:115473",
+   "KRED:115573",
+   "KRED:119807",
+   "KRED:119881",
+   "KRED:120935",
+   "KRED:121697",
+   "KRED:121761",
+   "KRED:122590",
+   "KRED:190126",
+   "KRED:910003"
+  ],
+  "V13": [
+   "DEBI:209058",
+   "DEBI:212362",
+   "DEBI:219162",
+   "DEBI:290024",
+   "KRED:113034",
+   "KRED:118370"
+  ],
+  "V14": [
+   "KRED:105919",
+   "KRED:115534",
+   "KRED:119037"
+  ],
+  "V15": [
+   "DEBI:211298",
+   "DEBI:219256"
+  ]
+ },
+ "dubletten": {
+  "DEBI": [
+   [
+    "K101",
+    "219626"
+   ],
+   [
+    "219676",
+    "219719"
+   ],
+   [
+    "207847",
+    "219828"
+   ],
+   [
+    "203652",
+    "219852",
+    "219857"
+   ],
+   [
+    "205738",
+    "219906"
+   ],
+   [
+    "218676",
+    "219965"
+   ],
+   [
+    "216356",
+    "220019"
+   ],
+   [
+    "208042",
+    "220075"
+   ],
+   [
+    "290031",
+    "290231",
+    "290233",
+    "290235"
+   ],
+   [
+    "216307",
+    "220087"
+   ],
+   [
+    "290096",
+    "290236",
+    "290239"
+   ],
+   [
+    "290191",
+    "290242",
+    "290244"
+   ],
+   [
+    "215455",
+    "220147"
+   ],
+   [
+    "210890",
+    "220184",
+    "220192"
+   ],
+   [
+    "215976",
+    "220252"
+   ],
+   [
+    "205290",
+    "220276",
+    "220322"
+   ],
+   [
+    "290139",
+    "290245"
+   ],
+   [
+    "290037",
+    "290247"
+   ],
+   [
+    "290033",
+    "290250"
+   ],
+   [
+    "200252",
+    "220360"
+   ],
+   [
+    "217531",
+    "220368",
+    "220370"
+   ],
+   [
+    "206610",
+    "220416"
+   ],
+   [
+    "217126",
+    "220447",
+    "220481"
+   ],
+   [
+    "201930",
+    "220521"
+   ],
+   [
+    "218450",
+    "220551"
+   ],
+   [
+    "215769",
+    "220564",
+    "220576"
+   ],
+   [
+    "203165",
+    "220614",
+    "220647"
+   ],
+   [
+    "211453",
+    "220691"
+   ],
+   [
+    "207009",
+    "220706"
+   ],
+   [
+    "218099",
+    "220732"
+   ],
+   [
+    "211516",
+    "220751"
+   ],
+   [
+    "200468",
+    "220758",
+    "220767"
+   ]
+  ],
+  "KRED": [
+   [
+    "100100",
+    "123060"
+   ],
+   [
+    "123138",
+    "123185"
+   ],
+   [
+    "117034",
+    "123219",
+    "123252"
+   ],
+   [
+    "103570",
+    "123332"
+   ],
+   [
+    "105461",
+    "123400",
+    "123407",
+    "123479"
+   ],
+   [
+    "104570",
+    "123481"
+   ],
+   [
+    "101834",
+    "123545"
+   ],
+   [
+    "103808",
+    "123581",
+    "123595"
+   ],
+   [
+    "118141",
+    "123643"
+   ],
+   [
+    "190101",
+    "190186"
+   ],
+   [
+    "190162",
+    "190189"
+   ],
+   [
+    "112440",
+    "123720"
+   ],
+   [
+    "102170",
+    "123777",
+    "123799",
+    "123827"
+   ],
+   [
+    "112656",
+    "123873",
+    "123887"
+   ],
+   [
+    "114028",
+    "123944"
+   ],
+   [
+    "108469",
+    "123947",
+    "123976"
+   ],
+   [
+    "103210",
+    "124008"
+   ],
+   [
+    "115822",
+    "124038",
+    "124049",
+    "124100"
+   ],
+   [
+    "108072",
+    "124122"
+   ],
+   [
+    "113720",
+    "124132",
+    "124190"
+   ],
+   [
+    "115250",
+    "124226"
+   ],
+   [
+    "103244",
+    "124306",
+    "124323",
+    "124402"
+   ],
+   [
+    "119589",
+    "124408"
+   ],
+   [
+    "115441",
+    "124442"
+   ],
+   [
+    "190092",
+    "190191",
+    "190192"
+   ],
+   [
+    "116540",
+    "124463",
+    "124541"
+   ],
+   [
+    "110711",
+    "124584"
+   ],
+   [
+    "107465",
+    "124661"
+   ],
+   [
+    "116082",
+    "124699"
+   ]
+  ]
+ },
+ "dubletten_details": [
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "K101",
+    "219626"
+   ],
+   "varianten": [
+    "umlaut",
+    "rechtsform",
+    "abk_strasse",
+    "telefonformat"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "100100",
+    "123060"
+   ],
+   "varianten": [
+    "bindestrich",
+    "abk_strasse",
+    "gleiche_iban"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "219676",
+    "219719"
+   ],
+   "varianten": [
+    "umzug",
+    "wortfolge"
+   ],
+   "plz_abweichend": true,
+   "blocking_grenze": true
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "123138",
+    "123185"
+   ],
+   "varianten": [
+    "umzug",
+    "wortfolge"
+   ],
+   "plz_abweichend": true,
+   "blocking_grenze": true
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "207847",
+    "219828"
+   ],
+   "varianten": [
+    "plz_tippfehler",
+    "wortfolge"
+   ],
+   "plz_abweichend": true
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "203652",
+    "219852",
+    "219857"
+   ],
+   "varianten": [
+    "grossschrift",
+    "hausnr_dreher",
+    "kontakt_neu"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "205738",
+    "219906"
+   ],
+   "varianten": [
+    "umlaut",
+    "zusatz"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "218676",
+    "219965"
+   ],
+   "varianten": [
+    "abk_strasse",
+    "hausnr_dreher"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "216356",
+    "220019"
+   ],
+   "varianten": [
+    "hausnr_dreher",
+    "plz_tippfehler"
+   ],
+   "plz_abweichend": true
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "208042",
+    "220075"
+   ],
+   "varianten": [
+    "abk_strasse",
+    "umlaut"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "290031",
+    "290231",
+    "290233",
+    "290235"
+   ],
+   "varianten": [
+    "abk_strasse",
+    "hausnr_dreher",
+    "plz_tippfehler",
+    "umlaut",
+    "zusatz"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "216307",
+    "220087"
+   ],
+   "varianten": [
+    "grossschrift"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "290096",
+    "290236",
+    "290239"
+   ],
+   "varianten": [
+    "kontakt_neu",
+    "plz_tippfehler",
+    "tippfehler",
+    "umlaut"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "290191",
+    "290242",
+    "290244"
+   ],
+   "varianten": [
+    "grossschrift",
+    "kontakt_neu",
+    "plz_tippfehler",
+    "rechtsform"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "215455",
+    "220147"
+   ],
+   "varianten": [
+    "hausnr_dreher"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "210890",
+    "220184",
+    "220192"
+   ],
+   "varianten": [
+    "plz_tippfehler",
+    "tippfehler",
+    "umlaut"
+   ],
+   "plz_abweichend": true
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "215976",
+    "220252"
+   ],
+   "varianten": [
+    "hausnr_dreher",
+    "umlaut"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "205290",
+    "220276",
+    "220322"
+   ],
+   "varianten": [
+    "grossschrift",
+    "plz_tippfehler",
+    "rechtsform",
+    "umlaut"
+   ],
+   "plz_abweichend": true
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "290139",
+    "290245"
+   ],
+   "varianten": [
+    "kontakt_neu",
+    "tippfehler"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "290037",
+    "290247"
+   ],
+   "varianten": [
+    "identisch"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "290033",
+    "290250"
+   ],
+   "varianten": [
+    "grossschrift",
+    "umlaut",
+    "zusatz"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "200252",
+    "220360"
+   ],
+   "varianten": [
+    "tippfehler",
+    "wortfolge"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "217531",
+    "220368",
+    "220370"
+   ],
+   "varianten": [
+    "hausnr_dreher",
+    "plz_tippfehler",
+    "tippfehler"
+   ],
+   "plz_abweichend": true
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "206610",
+    "220416"
+   ],
+   "varianten": [
+    "grossschrift",
+    "umlaut"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "217126",
+    "220447",
+    "220481"
+   ],
+   "varianten": [
+    "plz_tippfehler",
+    "rechtsform",
+    "tippfehler"
+   ],
+   "plz_abweichend": true
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "201930",
+    "220521"
+   ],
+   "varianten": [
+    "umlaut"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "218450",
+    "220551"
+   ],
+   "varianten": [
+    "rechtsform",
+    "umlaut"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "215769",
+    "220564",
+    "220576"
+   ],
+   "varianten": [
+    "hausnr_dreher",
+    "rechtsform",
+    "umzug",
+    "wortfolge"
+   ],
+   "plz_abweichend": true
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "203165",
+    "220614",
+    "220647"
+   ],
+   "varianten": [
+    "abk_strasse",
+    "hausnr_dreher",
+    "plz_tippfehler",
+    "umlaut"
+   ],
+   "plz_abweichend": true
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "211453",
+    "220691"
+   ],
+   "varianten": [
+    "tippfehler"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "207009",
+    "220706"
+   ],
+   "varianten": [
+    "abk_strasse",
+    "tippfehler",
+    "wortfolge"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "218099",
+    "220732"
+   ],
+   "varianten": [
+    "tippfehler",
+    "zusatz"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "211516",
+    "220751"
+   ],
+   "varianten": [
+    "kontakt_neu",
+    "rechtsform",
+    "tippfehler"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "DEBI",
+   "nummern": [
+    "200468",
+    "220758",
+    "220767"
+   ],
+   "varianten": [
+    "identisch",
+    "rechtsform",
+    "tippfehler",
+    "umlaut"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "117034",
+    "123219",
+    "123252"
+   ],
+   "varianten": [
+    "kontakt_neu",
+    "tippfehler",
+    "wortfolge"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "103570",
+    "123332"
+   ],
+   "varianten": [
+    "rechtsform"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "105461",
+    "123400",
+    "123407",
+    "123479"
+   ],
+   "varianten": [
+    "abk_strasse",
+    "hausnr_dreher",
+    "tippfehler",
+    "umlaut"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "104570",
+    "123481"
+   ],
+   "varianten": [
+    "grossschrift",
+    "rechtsform"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "101834",
+    "123545"
+   ],
+   "varianten": [
+    "grossschrift",
+    "rechtsform",
+    "umlaut"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "103808",
+    "123581",
+    "123595"
+   ],
+   "varianten": [
+    "hausnr_dreher",
+    "umzug",
+    "wortfolge"
+   ],
+   "plz_abweichend": true
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "118141",
+    "123643"
+   ],
+   "varianten": [
+    "umlaut"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "190101",
+    "190186"
+   ],
+   "varianten": [
+    "kontakt_neu",
+    "rechtsform",
+    "zusatz"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "190162",
+    "190189"
+   ],
+   "varianten": [
+    "abk_strasse",
+    "rechtsform"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "112440",
+    "123720"
+   ],
+   "varianten": [
+    "rechtsform",
+    "zusatz"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "102170",
+    "123777",
+    "123799",
+    "123827"
+   ],
+   "varianten": [
+    "identisch",
+    "rechtsform",
+    "umlaut",
+    "umzug",
+    "wortfolge",
+    "zusatz"
+   ],
+   "plz_abweichend": true
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "112656",
+    "123873",
+    "123887"
+   ],
+   "varianten": [
+    "abk_strasse",
+    "rechtsform",
+    "umlaut",
+    "wortfolge"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "114028",
+    "123944"
+   ],
+   "varianten": [
+    "abk_strasse",
+    "umlaut"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "108469",
+    "123947",
+    "123976"
+   ],
+   "varianten": [
+    "grossschrift",
+    "zusatz"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "103210",
+    "124008"
+   ],
+   "varianten": [
+    "umlaut"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "115822",
+    "124038",
+    "124049",
+    "124100"
+   ],
+   "varianten": [
+    "hausnr_dreher",
+    "tippfehler",
+    "umlaut",
+    "wortfolge"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "108072",
+    "124122"
+   ],
+   "varianten": [
+    "tippfehler",
+    "umlaut",
+    "wortfolge"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "113720",
+    "124132",
+    "124190"
+   ],
+   "varianten": [
+    "abk_strasse",
+    "kontakt_neu",
+    "rechtsform",
+    "umlaut"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "115250",
+    "124226"
+   ],
+   "varianten": [
+    "abk_strasse",
+    "rechtsform"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "103244",
+    "124306",
+    "124323",
+    "124402"
+   ],
+   "varianten": [
+    "hausnr_dreher",
+    "rechtsform",
+    "umlaut",
+    "umzug",
+    "wortfolge"
+   ],
+   "plz_abweichend": true
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "119589",
+    "124408"
+   ],
+   "varianten": [
+    "hausnr_dreher",
+    "tippfehler",
+    "umzug"
+   ],
+   "plz_abweichend": true
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "115441",
+    "124442"
+   ],
+   "varianten": [
+    "tippfehler",
+    "wortfolge"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "190092",
+    "190191",
+    "190192"
+   ],
+   "varianten": [
+    "abk_strasse",
+    "hausnr_dreher",
+    "umzug",
+    "wortfolge"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "116540",
+    "124463",
+    "124541"
+   ],
+   "varianten": [
+    "abk_strasse",
+    "kontakt_neu",
+    "zusatz"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "110711",
+    "124584"
+   ],
+   "varianten": [
+    "rechtsform",
+    "umlaut"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "107465",
+    "124661"
+   ],
+   "varianten": [
+    "tippfehler",
+    "wortfolge"
+   ],
+   "plz_abweichend": false
+  },
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "116082",
+    "124699"
+   ],
+   "varianten": [
+    "umzug",
+    "zusatz"
+   ],
+   "plz_abweichend": true
+  }
+ ],
+ "keine_dubletten": [
+  {
+   "objekt": "KRED",
+   "nummern": [
+    "108836",
+    "119678"
+   ],
+   "grund": "Factoring: gleiche IBAN des Factoringinstituts, verschiedene Unternehmen"
+  }
+ ],
+ "kunde_lieferant": {
+  "verknuepft": [
+   [
+    "219726",
+    "109004"
+   ],
+   [
+    "219731",
+    "120774"
+   ],
+   [
+    "219732",
+    "121357"
+   ],
+   [
+    "219737",
+    "101961"
+   ],
+   [
+    "219744",
+    "106123"
+   ],
+   [
+    "219747",
+    "104054"
+   ],
+   [
+    "219781",
+    "104870"
+   ],
+   [
+    "219789",
+    "106348"
+   ],
+   [
+    "219792",
+    "107492"
+   ],
+   [
+    "219800",
+    "109190"
+   ]
+  ],
+  "unverknuepft": [
+   [
+    "219633",
+    "100300"
+   ],
+   [
+    "219753",
+    "106671"
+   ],
+   [
+    "219759",
+    "111400"
+   ],
+   [
+    "219761",
+    "106154"
+   ],
+   [
+    "219763",
+    "111027"
+   ]
+  ],
+  "einseitig": [
+   [
+    "219768",
+    "116910"
+   ],
+   [
+    "219777",
+    "102448"
+   ],
+   [
+    "219780",
+    "108404"
+   ]
+  ],
+  "ins_leere": [
+   [
+    "219050",
+    "188888"
+   ]
+  ]
+ },
+ "sonderfaelle": {
+  "k101_altsatz": "219626",
+  "kreditor_100100_dublette": "123060",
+  "factoring": [
+   "108836",
+   "119678"
+  ],
+  "kunde_lieferant_100300": "219633",
+  "datentext_angriff": "DEBI:202070",
+  "blocking_grenze_debi": [
+   "219676",
+   "219719"
+  ],
+  "blocking_grenze_kred": [
+   "123138",
+   "123185"
+  ],
+  "vier_augen_bankaenderung": "106671"
+ }
+}

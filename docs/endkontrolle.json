@@ -1,0 +1,16 @@
+{
+  "desktop_unterschiede": [
+    "app.toml",
+    "ressourcen/AppIcon.icns",
+    "ressourcen/icon.png",
+    "ressourcen/icon.svg"
+  ],
+  "desktop_ok": true,
+  "referenzen": {
+    "VarianceAI-v1.2": 0,
+    "FlowAudit-AI-v1.2.1": 0,
+    "ControllAI-v2.2.1": 0
+  },
+  "ruff": "All checks passed!",
+  "secrets": "keine gefunden"
+}

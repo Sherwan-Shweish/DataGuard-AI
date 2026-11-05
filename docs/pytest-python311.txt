@@ -1,0 +1,14 @@
+Python 3.11 · 04.11.2026 · frische Umgebung aus uv.lock (uv sync --frozen) · uv run pytest
+Python 3.11.18
+........................................................................ [ 22%]
+........................................................................ [ 45%]
+........................................................................ [ 68%]
+........................................................................ [ 90%]
+.............................                                            [100%]
+============================= slowest 5 durations ==============================
+6.12s setup    tests/test_app.py::test_tabs_kopf_und_kennzahlenleiste
+4.36s call     tests/test_app.py::test_datenexport_in_der_seitenleiste
+3.36s call     tests/test_desktop.py::test_app_hell_dunkel_umschalten
+3.01s setup    tests/test_exporter.py::test_kein_export_enthaelt_eine_unmaskierte_iban[bereinigung.xlsx]
+2.96s call     tests/test_app.py::test_laufzeit_schutzwerte
+317 passed in 57.56s

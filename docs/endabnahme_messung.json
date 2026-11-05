@@ -1,0 +1,46 @@
+{
+  "zeitpunkt": "04.11.2026 18:16",
+  "python": "3.12.3",
+  "rechner": "Linux x86_64 · 2 Kerne",
+  "laeufe": 5,
+  "methode": "je Messung ein frischer Python-Prozess; Median; Folgelauf = Tabwechsel über alle 7 Tabs",
+  "werte": {
+    "verlauf_sekunden": 0.77,
+    "erstlauf_sekunden": 3.54,
+    "folgelauf_sekunden": 0.21
+  },
+  "grenzen": {
+    "verlauf_sekunden": 1.5,
+    "erstlauf_sekunden": 12.0,
+    "folgelauf_sekunden": 1.0
+  },
+  "erfuellt": {
+    "verlauf_sekunden": true,
+    "erstlauf_sekunden": true,
+    "folgelauf_sekunden": true
+  },
+  "einzelwerte": {
+    "verlauf": [
+      0.77,
+      0.77,
+      0.79,
+      0.75,
+      0.92
+    ],
+    "gesamtlauf": [
+      0.65,
+      0.7,
+      0.5,
+      0.56,
+      0.52
+    ],
+    "erstlauf": [
+      3.75,
+      3.42,
+      3.54,
+      3.71,
+      3.39
+    ],
+    "folgelauf_max": 0.38
+  }
+}

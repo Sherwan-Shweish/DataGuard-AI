@@ -1,0 +1,192 @@
+{
+ "stichtag": "30.09.2026",
+ "vormonat": "31.08.2026",
+ "saetze": "1.598",
+ "debitoren": "896",
+ "kreditoren": "702",
+ "regeln": "46",
+ "pruefungen": "52.847",
+ "befunde": "987",
+ "saetze_mit_befund": "799",
+ "blocker_alle": "201",
+ "fehler": "132",
+ "hinweise": "654",
+ "dama": "94,37 %",
+ "dama_delta": "+0,27 Pp",
+ "dama_dim": {
+  "Vollständigkeit": "99,32 %",
+  "Gültigkeit": "99,65 %",
+  "Eindeutigkeit": "95,81 %",
+  "Konsistenz": "98,82 %",
+  "Aktualität": "78,23 %"
+ },
+ "dama_dim_delta": {
+  "Vollständigkeit": "+0,01 Pp",
+  "Gültigkeit": "+0,05 Pp",
+  "Eindeutigkeit": "+0,01 Pp",
+  "Konsistenz": "+0,03 Pp",
+  "Aktualität": "+1,23 Pp"
+ },
+ "readiness": "65,48 %",
+ "readiness_delta": "+1,27 Pp",
+ "readiness_inkl": "78,71 %",
+ "readiness_debi": "56,76 %",
+ "readiness_kred": "68,22 %",
+ "bereit": "203",
+ "nach_bereinigung": "41",
+ "blockiert": "66",
+ "archivieren": "1.288",
+ "nicht_archivieren": "310",
+ "ohne_blocker": "244",
+ "archivquote": "80,6 %",
+ "archiv_debi": "91,7 %",
+ "archiv_kred": "66,4 %",
+ "archiv_debi_n": "822",
+ "archiv_kred_n": "466",
+ "archiv_untergrenze": "51,4 %",
+ "bereit_debi": "42",
+ "bereit_kred": "161",
+ "migr_debi": "74",
+ "migr_kred": "236",
+ "offene_cluster": "25",
+ "offene_cluster_delta": "−1",
+ "blocker_befunde": "84",
+ "blocker_befunde_delta": "+3",
+ "archiv_delta": "+1",
+ "cluster": "63",
+ "paare_90": "111",
+ "paare_75": "10",
+ "paare_unter": "7.333",
+ "vergleiche_mit": "7.454",
+ "vergleiche_ohne": "647.011",
+ "reduktion": "98,8 %",
+ "pr": {
+  "s42": {
+   "ab_75": {
+    "p": "95,9 %",
+    "r": "96,7 %",
+    "f1": "96,3 %",
+    "br": "97,5 %",
+    "tp": "116",
+    "fp": "5",
+    "fn": "4",
+    "wahr": "120"
+   },
+   "ab_90": {
+    "p": "100,0 %",
+    "r": "92,5 %",
+    "f1": "96,1 %",
+    "br": "97,5 %",
+    "tp": "111",
+    "fp": "0",
+    "fn": "9",
+    "wahr": "120"
+   }
+  },
+  "s4242": {
+   "ab_75": {
+    "p": "99,0 %",
+    "r": "96,2 %",
+    "f1": "97,6 %",
+    "br": "98,1 %",
+    "tp": "101",
+    "fp": "1",
+    "fn": "4",
+    "wahr": "105"
+   },
+   "ab_90": {
+    "p": "100,0 %",
+    "r": "87,6 %",
+    "f1": "93,4 %",
+    "br": "98,1 %",
+    "tp": "92",
+    "fp": "0",
+    "fn": "13",
+    "wahr": "105"
+   }
+  }
+ },
+ "grenzfaelle": [
+  {
+   "a": "Brenner Kältetechnik e.K., 34117 Kassel",
+   "b": "Kältetechnik Brenner e.K., 37079 Göttingen"
+  },
+  {
+   "a": "Ebert Messtechnik e.K., 64283 Darmstadt",
+   "b": "Messtechnik Ebert e.K., 36037 Fulda"
+  }
+ ],
+ "zerlegung": {
+  "Neuanlagen bereit": "+5,62 Pp",
+  "bereinigt": "+4,87 Pp",
+  "Alterung/Zeitablauf": "−0,96 Pp",
+  "verschlechtert durch Änderung": "−3,79 Pp",
+  "neue Blocker durch Neuanlagen": "−10,75 Pp"
+ },
+ "zerlegung_summe": "−5,01 Pp",
+ "neue_blocker_benutzer": [
+  {
+   "benutzer": "VERTRIEB_03",
+   "pp": "−6,26 Pp"
+  },
+  {
+   "benutzer": "STAMM_ZENTRAL",
+   "pp": "−2,59 Pp"
+  },
+  {
+   "benutzer": "KRED_SACHB3",
+   "pp": "−1,25 Pp"
+  },
+  {
+   "benutzer": "EINKAUF_07",
+   "pp": "−0,66 Pp"
+  }
+ ],
+ "dama_start": "91,48 %",
+ "dama_ende": "94,37 %",
+ "readiness_start": "70,49 %",
+ "readiness_ende": "65,48 %",
+ "blocker_regeln": [
+  {
+   "regel": "E01",
+   "text": "Dublette sehr wahrscheinlich (Score ≥ 90)",
+   "n": "20"
+  },
+  {
+   "regel": "E03",
+   "text": "Gleiche IBAN bei mehreren Kreditoren",
+   "n": "16"
+  },
+  {
+   "regel": "K02",
+   "text": "Kontengruppe ohne BP-Gruppierung (CVI)",
+   "n": "11"
+  },
+  {
+   "regel": "E05",
+   "text": "Kunde = Lieferant ohne Verknüpfung",
+   "n": "10"
+  },
+  {
+   "regel": "K06",
+   "text": "Nummernkonflikt Debitor/Kreditor",
+   "n": "8"
+  }
+ ],
+ "aktiv_blockiert": [
+  "100100 (E01, E03)",
+  "100300 (E05)"
+ ],
+ "laufend": "203",
+ "neuanlagen": "97",
+ "golden": "63",
+ "verlauf_s": "0,77",
+ "erstlauf_s": "3,54",
+ "folgelauf_s": "0,21",
+ "kunde_lieferant": {
+  "verknüpft": 6,
+  "unverknüpft": 5
+ },
+ "umsatz_2025": "83.873.069,96 €",
+ "ebit_2025": "8.720.441,56 €"
+}

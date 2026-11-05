@@ -1,0 +1,1620 @@
+{
+ "hinweis": "Synthetische Daten der fiktiven RheinMain Industrietechnik GmbH – erzeugt per tools/demolauf_erzeugen.py",
+ "stichtag": "2026-09-30",
+ "vormonat": "2026-08-31",
+ "seed": 42,
+ "umfang": {
+  "DEBI": 896,
+  "KRED": 702
+ },
+ "kategorien": {
+  "aktiv": 18,
+  "laufend": 203,
+  "alt_gebucht": 1036,
+  "alt_nie": 243,
+  "neu": 98
+ },
+ "regeln": 46,
+ "neuanlagen_12_monate": 97,
+ "archivquote": 80.6,
+ "je_objekt": {
+  "DEBI": {
+   "saetze": 896,
+   "archivieren": 822,
+   "nicht_archivieren": 74,
+   "bereit": 42,
+   "archivquote": 91.7,
+   "readiness_quote": 56.76
+  },
+  "KRED": {
+   "saetze": 702,
+   "archivieren": 466,
+   "nicht_archivieren": 236,
+   "bereit": 161,
+   "archivquote": 66.4,
+   "readiness_quote": 68.22
+  }
+ },
+ "archiv_je_objekt": {
+  "DEBI": {
+   "archivieren": 822,
+   "saetze": 896
+  },
+  "KRED": {
+   "archivieren": 466,
+   "saetze": 702
+  }
+ },
+ "fehlerkatalog": {
+  "V01": {
+   "beschreibung": "Name 1 fehlt",
+   "dimension": "Vollständigkeit",
+   "schweregrad": "Blocker",
+   "eingebaut": 2,
+   "gefunden": 2,
+   "anwendbar": 1598
+  },
+  "V02": {
+   "beschreibung": "Straße fehlt",
+   "dimension": "Vollständigkeit",
+   "schweregrad": "Fehler",
+   "eingebaut": 8,
+   "gefunden": 8,
+   "anwendbar": 1598
+  },
+  "V03": {
+   "beschreibung": "Hausnummer fehlt",
+   "dimension": "Vollständigkeit",
+   "schweregrad": "Hinweis",
+   "eingebaut": 10,
+   "gefunden": 10,
+   "anwendbar": 1590
+  },
+  "V04": {
+   "beschreibung": "Postleitzahl fehlt",
+   "dimension": "Vollständigkeit",
+   "schweregrad": "Blocker",
+   "eingebaut": 4,
+   "gefunden": 4,
+   "anwendbar": 1598
+  },
+  "V05": {
+   "beschreibung": "Ort fehlt",
+   "dimension": "Vollständigkeit",
+   "schweregrad": "Blocker",
+   "eingebaut": 3,
+   "gefunden": 3,
+   "anwendbar": 1598
+  },
+  "V06": {
+   "beschreibung": "Land fehlt",
+   "dimension": "Vollständigkeit",
+   "schweregrad": "Blocker",
+   "eingebaut": 2,
+   "gefunden": 2,
+   "anwendbar": 1598
+  },
+  "V07": {
+   "beschreibung": "Sprache fehlt",
+   "dimension": "Vollständigkeit",
+   "schweregrad": "Fehler",
+   "eingebaut": 12,
+   "gefunden": 12,
+   "anwendbar": 1598
+  },
+  "V08": {
+   "beschreibung": "USt-IdNr. fehlt (EU-Ausland)",
+   "dimension": "Vollständigkeit",
+   "schweregrad": "Fehler",
+   "eingebaut": 6,
+   "gefunden": 6,
+   "anwendbar": 197
+  },
+  "V09": {
+   "beschreibung": "USt-IdNr. fehlt (Inland, Gesellschaft)",
+   "dimension": "Vollständigkeit",
+   "schweregrad": "Hinweis",
+   "eingebaut": 20,
+   "gefunden": 20,
+   "anwendbar": 1186
+  },
+  "V10": {
+   "beschreibung": "Kreditor ohne Bankverbindung",
+   "dimension": "Vollständigkeit",
+   "schweregrad": "Fehler",
+   "eingebaut": 10,
+   "gefunden": 10,
+   "anwendbar": 701
+  },
+  "V11": {
+   "beschreibung": "E-Mail fehlt",
+   "dimension": "Vollständigkeit",
+   "schweregrad": "Hinweis",
+   "eingebaut": 27,
+   "gefunden": 27,
+   "anwendbar": 1598
+  },
+  "V12": {
+   "beschreibung": "Telefonnummer fehlt",
+   "dimension": "Vollständigkeit",
+   "schweregrad": "Hinweis",
+   "eingebaut": 30,
+   "gefunden": 30,
+   "anwendbar": 1598
+  },
+  "V13": {
+   "beschreibung": "Zahlungsbedingung fehlt",
+   "dimension": "Vollständigkeit",
+   "schweregrad": "Fehler",
+   "eingebaut": 6,
+   "gefunden": 6,
+   "anwendbar": 1598
+  },
+  "V14": {
+   "beschreibung": "Abstimmkonto fehlt",
+   "dimension": "Vollständigkeit",
+   "schweregrad": "Blocker",
+   "eingebaut": 3,
+   "gefunden": 3,
+   "anwendbar": 1598
+  },
+  "V15": {
+   "beschreibung": "Kontengruppe fehlt",
+   "dimension": "Vollständigkeit",
+   "schweregrad": "Blocker",
+   "eingebaut": 2,
+   "gefunden": 2,
+   "anwendbar": 1598
+  },
+  "G01": {
+   "beschreibung": "IBAN-Prüfziffer falsch (ISO 13616, Mod 97)",
+   "dimension": "Gültigkeit",
+   "schweregrad": "Blocker",
+   "eingebaut": 6,
+   "gefunden": 6,
+   "anwendbar": 934
+  },
+  "G02": {
+   "beschreibung": "IBAN-Länge passt nicht zum Land",
+   "dimension": "Gültigkeit",
+   "schweregrad": "Blocker",
+   "eingebaut": 3,
+   "gefunden": 3,
+   "anwendbar": 937
+  },
+  "G03": {
+   "beschreibung": "IBAN-Ländercode unbekannt",
+   "dimension": "Gültigkeit",
+   "schweregrad": "Blocker",
+   "eingebaut": 2,
+   "gefunden": 2,
+   "anwendbar": 939
+  },
+  "G04": {
+   "beschreibung": "Bankleitzahl im IBAN ≠ Stammdatum BLZ",
+   "dimension": "Gültigkeit",
+   "schweregrad": "Fehler",
+   "eingebaut": 4,
+   "gefunden": 4,
+   "anwendbar": 800
+  },
+  "G05": {
+   "beschreibung": "USt-IdNr.-Format ungültig",
+   "dimension": "Gültigkeit",
+   "schweregrad": "Fehler",
+   "eingebaut": 6,
+   "gefunden": 6,
+   "anwendbar": 1443
+  },
+  "G06": {
+   "beschreibung": "USt-IdNr. (DE) Prüfziffer falsch",
+   "dimension": "Gültigkeit",
+   "schweregrad": "Fehler",
+   "eingebaut": 5,
+   "gefunden": 5,
+   "anwendbar": 1249
+  },
+  "G07": {
+   "beschreibung": "PLZ-Format ungültig für das Land",
+   "dimension": "Gültigkeit",
+   "schweregrad": "Blocker",
+   "eingebaut": 6,
+   "gefunden": 6,
+   "anwendbar": 1590
+  },
+  "G08": {
+   "beschreibung": "E-Mail-Syntax ungültig",
+   "dimension": "Gültigkeit",
+   "schweregrad": "Fehler",
+   "eingebaut": 8,
+   "gefunden": 8,
+   "anwendbar": 1571
+  },
+  "G09": {
+   "beschreibung": "Sprache nicht zulässig",
+   "dimension": "Gültigkeit",
+   "schweregrad": "Fehler",
+   "eingebaut": 3,
+   "gefunden": 3,
+   "anwendbar": 1586
+  },
+  "G10": {
+   "beschreibung": "Telefon nicht international (+Ländervorwahl)",
+   "dimension": "Gültigkeit",
+   "schweregrad": "Hinweis",
+   "eingebaut": 13,
+   "gefunden": 13,
+   "anwendbar": 1568
+  },
+  "G11": {
+   "beschreibung": "Zahlungsbedingung unbekannt",
+   "dimension": "Gültigkeit",
+   "schweregrad": "Fehler",
+   "eingebaut": 3,
+   "gefunden": 3,
+   "anwendbar": 1592
+  },
+  "G12": {
+   "beschreibung": "Land unbekannt",
+   "dimension": "Gültigkeit",
+   "schweregrad": "Blocker",
+   "eingebaut": 2,
+   "gefunden": 2,
+   "anwendbar": 1596
+  },
+  "G13": {
+   "beschreibung": "BIC-Format ungültig",
+   "dimension": "Gültigkeit",
+   "schweregrad": "Fehler",
+   "eingebaut": 3,
+   "gefunden": 3,
+   "anwendbar": 939
+  },
+  "G14": {
+   "beschreibung": "Freitext enthält eine Steueranweisung (Datentext-Angriff)",
+   "dimension": "Gültigkeit",
+   "schweregrad": "Hinweis",
+   "eingebaut": 1,
+   "gefunden": 1,
+   "anwendbar": 1598
+  },
+  "E01": {
+   "beschreibung": "Dublette sehr wahrscheinlich (Score ≥ 90)",
+   "dimension": "Eindeutigkeit",
+   "schweregrad": "Blocker",
+   "eingebaut": 0,
+   "gefunden": 53,
+   "anwendbar": 862
+  },
+  "E02": {
+   "beschreibung": "Mögliche Dublette (Score 75–89)",
+   "dimension": "Eindeutigkeit",
+   "schweregrad": "Fehler",
+   "eingebaut": 0,
+   "gefunden": 2,
+   "anwendbar": 862
+  },
+  "E03": {
+   "beschreibung": "Gleiche IBAN bei mehreren Kreditoren",
+   "dimension": "Eindeutigkeit",
+   "schweregrad": "Blocker",
+   "eingebaut": 33,
+   "gefunden": 33,
+   "anwendbar": 431
+  },
+  "E04": {
+   "beschreibung": "Gleiche USt-IdNr. bei mehreren Sätzen",
+   "dimension": "Eindeutigkeit",
+   "schweregrad": "Fehler",
+   "eingebaut": 38,
+   "gefunden": 38,
+   "anwendbar": 780
+  },
+  "E05": {
+   "beschreibung": "Kunde = Lieferant ohne Verknüpfung",
+   "dimension": "Eindeutigkeit",
+   "schweregrad": "Blocker",
+   "eingebaut": 10,
+   "gefunden": 10,
+   "anwendbar": 310
+  },
+  "K01": {
+   "beschreibung": "Vertriebsgebiet passt nicht zur PLZ",
+   "dimension": "Konsistenz",
+   "schweregrad": "Fehler",
+   "eingebaut": 6,
+   "gefunden": 6,
+   "anwendbar": 888
+  },
+  "K02": {
+   "beschreibung": "Kontengruppe ohne BP-Gruppierung (CVI)",
+   "dimension": "Konsistenz",
+   "schweregrad": "Blocker",
+   "eingebaut": 56,
+   "gefunden": 56,
+   "anwendbar": 1596
+  },
+  "K03": {
+   "beschreibung": "Land der USt-IdNr. ≠ Land der Anschrift",
+   "dimension": "Konsistenz",
+   "schweregrad": "Fehler",
+   "eingebaut": 3,
+   "gefunden": 3,
+   "anwendbar": 1437
+  },
+  "K04": {
+   "beschreibung": "Bankland ≠ Land der IBAN",
+   "dimension": "Konsistenz",
+   "schweregrad": "Fehler",
+   "eingebaut": 2,
+   "gefunden": 2,
+   "anwendbar": 937
+  },
+  "K05": {
+   "beschreibung": "Nummer außerhalb des Nummernkreises der Kontengruppe",
+   "dimension": "Konsistenz",
+   "schweregrad": "Blocker",
+   "eingebaut": 6,
+   "gefunden": 6,
+   "anwendbar": 1540
+  },
+  "K06": {
+   "beschreibung": "Nummernkonflikt Debitor/Kreditor",
+   "dimension": "Konsistenz",
+   "schweregrad": "Blocker",
+   "eingebaut": 8,
+   "gefunden": 8,
+   "anwendbar": 310
+  },
+  "K07": {
+   "beschreibung": "Verknüpfung Kunde/Lieferant einseitig",
+   "dimension": "Konsistenz",
+   "schweregrad": "Fehler",
+   "eingebaut": 4,
+   "gefunden": 4,
+   "anwendbar": 24
+  },
+  "K08": {
+   "beschreibung": "Löschvormerkung trotz offener Posten",
+   "dimension": "Konsistenz",
+   "schweregrad": "Fehler",
+   "eingebaut": 3,
+   "gefunden": 3,
+   "anwendbar": 736
+  },
+  "A01": {
+   "beschreibung": "Keine Buchung seit > 24 Monaten, keine Löschvormerkung",
+   "dimension": "Aktualität",
+   "schweregrad": "Hinweis",
+   "eingebaut": 433,
+   "gefunden": 433,
+   "anwendbar": 1257
+  },
+  "A02": {
+   "beschreibung": "Nie bebucht und älter als 24 Monate, keine Löschvormerkung",
+   "dimension": "Aktualität",
+   "schweregrad": "Hinweis",
+   "eingebaut": 116,
+   "gefunden": 116,
+   "anwendbar": 341
+  },
+  "A03": {
+   "beschreibung": "Gesperrt ohne offene Posten, keine Löschvormerkung",
+   "dimension": "Aktualität",
+   "schweregrad": "Hinweis",
+   "eingebaut": 3,
+   "gefunden": 3,
+   "anwendbar": 3
+  },
+  "A04": {
+   "beschreibung": "Bankverbindung in den letzten 30 Tagen geändert",
+   "dimension": "Aktualität",
+   "schweregrad": "Hinweis",
+   "eingebaut": 1,
+   "gefunden": 1,
+   "anwendbar": 939
+  }
+ },
+ "dama": {
+  "Vollständigkeit": 99.32,
+  "Gültigkeit": 99.65,
+  "Eindeutigkeit": 95.81,
+  "Konsistenz": 98.82,
+  "Aktualität": 78.23
+ },
+ "dama_gesamt": 94.37,
+ "kennzahlen": {
+  "DAMA-Gesamtscore": 94.37,
+  "Migration-Readiness-Quote": 65.48,
+  "Offene Dublettencluster": 25,
+  "Blocker-Befunde": 84,
+  "Archivierungskandidaten": 1288
+ },
+ "kennzahlen_vormonat": {
+  "DAMA-Gesamtscore": 94.1,
+  "Migration-Readiness-Quote": 64.21,
+  "Offene Dublettencluster": 26,
+  "Blocker-Befunde": 81,
+  "Archivierungskandidaten": 1287
+ },
+ "readiness": {
+  "quote": 65.48,
+  "quote_inkl_bereinigung": 78.71,
+  "zaehlung": {
+   "bereit": 203,
+   "bereit nach Bereinigung": 41,
+   "blockiert": 66,
+   "archivieren": 1288
+  },
+  "trichter": {
+   "alle Sätze": 1598,
+   "nicht archivieren": 310,
+   "ohne Blocker": 244,
+   "bereit": 203
+  },
+  "blocker_je_regel": {
+   "E01": 20,
+   "E03": 16,
+   "K02": 11,
+   "E05": 10,
+   "K06": 8,
+   "K05": 4,
+   "G01": 3,
+   "V04": 2,
+   "G07": 2,
+   "V06": 1,
+   "V15": 1,
+   "G12": 1,
+   "V05": 1,
+   "G02": 1,
+   "V01": 1,
+   "G03": 1,
+   "V14": 1
+  },
+  "kunde_lieferant": {
+   "verknüpft": 6,
+   "unverknüpft": 5
+  }
+ },
+ "aktive_partner": {
+  "DEBI:K101": {
+   "status": "bereit",
+   "blocker": ""
+  },
+  "DEBI:K102": {
+   "status": "bereit",
+   "blocker": ""
+  },
+  "DEBI:K103": {
+   "status": "bereit",
+   "blocker": ""
+  },
+  "DEBI:K104": {
+   "status": "bereit",
+   "blocker": ""
+  },
+  "DEBI:K201": {
+   "status": "bereit",
+   "blocker": ""
+  },
+  "DEBI:K202": {
+   "status": "bereit",
+   "blocker": ""
+  },
+  "DEBI:K203": {
+   "status": "bereit",
+   "blocker": ""
+  },
+  "DEBI:K204": {
+   "status": "bereit",
+   "blocker": ""
+  },
+  "DEBI:K301": {
+   "status": "bereit",
+   "blocker": ""
+  },
+  "DEBI:K302": {
+   "status": "bereit",
+   "blocker": ""
+  },
+  "DEBI:K303": {
+   "status": "bereit",
+   "blocker": ""
+  },
+  "DEBI:K304": {
+   "status": "bereit",
+   "blocker": ""
+  },
+  "KRED:100100": {
+   "status": "blockiert",
+   "blocker": "E01, E03"
+  },
+  "KRED:100200": {
+   "status": "bereit",
+   "blocker": ""
+  },
+  "KRED:100300": {
+   "status": "blockiert",
+   "blocker": "E05"
+  },
+  "KRED:100400": {
+   "status": "bereit",
+   "blocker": ""
+  },
+  "KRED:100500": {
+   "status": "bereit",
+   "blocker": ""
+  },
+  "KRED:100600": {
+   "status": "bereit",
+   "blocker": ""
+  }
+ },
+ "dubletten": {
+  "seed_42": {
+   "seed": 42,
+   "umfang": {
+    "DEBI": 896,
+    "KRED": 702
+   },
+   "wahre_cluster": {
+    "DEBI": 32,
+    "KRED": 29
+   },
+   "gefundene_cluster": {
+    "DEBI": 35,
+    "KRED": 28
+   },
+   "vergleiche_ohne_blocking": {
+    "DEBI": 400960,
+    "KRED": 246051
+   },
+   "vergleiche_mit_blocking": {
+    "DEBI": 4706,
+    "KRED": 2748
+   },
+   "kandidaten_je_pass": {
+    "DEBI": {
+     "PLZ": 2699,
+     "IBAN/USt": 33,
+     "Namensanfang": 2105
+    },
+    "KRED": {
+     "PLZ": 1730,
+     "IBAN/USt": 53,
+     "Namensanfang": 1092
+    }
+   },
+   "ab_75": {
+    "schwelle": 75,
+    "tp": 116,
+    "fp": 5,
+    "fn": 4,
+    "wahre_paare": 120,
+    "precision": 0.9587,
+    "recall": 0.9667,
+    "f1": 0.9627,
+    "blocking_recall": 0.975,
+    "vergleiche_ohne_blocking": 647011,
+    "vergleiche_mit_blocking": 7454
+   },
+   "ab_90": {
+    "schwelle": 90,
+    "tp": 111,
+    "fp": 0,
+    "fn": 9,
+    "wahre_paare": 120,
+    "precision": 1.0,
+    "recall": 0.925,
+    "f1": 0.961,
+    "blocking_recall": 0.975,
+    "vergleiche_ohne_blocking": 647011,
+    "vergleiche_mit_blocking": 7454
+   },
+   "laufzeit_sekunden": 0.155,
+   "fehlerfaelle_ab_75": {
+    "fn": [
+     {
+      "objekt": "DEBI",
+      "a": {
+       "nr": "215769",
+       "name": "Sommer Werkstofftechnik e.K.",
+       "plz": "42285",
+       "ort": "Wuppertal",
+       "iban_oder_ust": false
+      },
+      "b": {
+       "nr": "220564",
+       "name": "Sommer Werkstofftechnik e. Kfm.",
+       "plz": "68159",
+       "ort": "Mannheim",
+       "iban_oder_ust": false
+      },
+      "score": 69.4,
+      "grund": "Score unter 75"
+     },
+     {
+      "objekt": "DEBI",
+      "a": {
+       "nr": "219676",
+       "name": "Brenner Kältetechnik e.K.",
+       "plz": "34117",
+       "ort": "Kassel",
+       "iban_oder_ust": false
+      },
+      "b": {
+       "nr": "219719",
+       "name": "Kältetechnik Brenner e.K.",
+       "plz": "37079",
+       "ort": "Göttingen",
+       "iban_oder_ust": false
+      },
+      "score": null,
+      "grund": "nicht verglichen (kein Blocking-Pass)"
+     },
+     {
+      "objekt": "DEBI",
+      "a": {
+       "nr": "220564",
+       "name": "Sommer Werkstofftechnik e. Kfm.",
+       "plz": "68159",
+       "ort": "Mannheim",
+       "iban_oder_ust": false
+      },
+      "b": {
+       "nr": "220576",
+       "name": "Werkstofftechnik Sommer e.K.",
+       "plz": "42285",
+       "ort": "Wuppertal",
+       "iban_oder_ust": false
+      },
+      "score": null,
+      "grund": "nicht verglichen (kein Blocking-Pass)"
+     },
+     {
+      "objekt": "KRED",
+      "a": {
+       "nr": "123138",
+       "name": "Ebert Messtechnik e.K.",
+       "plz": "64283",
+       "ort": "Darmstadt",
+       "iban_oder_ust": false
+      },
+      "b": {
+       "nr": "123185",
+       "name": "Messtechnik Ebert e.K.",
+       "plz": "36037",
+       "ort": "Fulda",
+       "iban_oder_ust": false
+      },
+      "score": null,
+      "grund": "nicht verglichen (kein Blocking-Pass)"
+     }
+    ],
+    "fp": [
+     {
+      "objekt": "DEBI",
+      "a": {
+       "nr": "290024",
+       "name": "Frei Messtechnik AG",
+       "plz": "8001",
+       "ort": "Zürich",
+       "iban_oder_ust": true
+      },
+      "b": {
+       "nr": "290215",
+       "name": "Gerber Messtechnik AG",
+       "plz": "8001",
+       "ort": "Zürich",
+       "iban_oder_ust": true
+      },
+      "score": 77.4
+     },
+     {
+      "objekt": "DEBI",
+      "a": {
+       "nr": "290043",
+       "name": "Frei Automation AG",
+       "plz": "4051",
+       "ort": "Basel",
+       "iban_oder_ust": false
+      },
+      "b": {
+       "nr": "290126",
+       "name": "Graf Automation AG",
+       "plz": "4051",
+       "ort": "Basel",
+       "iban_oder_ust": false
+      },
+      "score": 75.0
+     },
+     {
+      "objekt": "DEBI",
+      "a": {
+       "nr": "290052",
+       "name": "Larsen Teknik A/S",
+       "plz": "8000",
+       "ort": "Aarhus",
+       "iban_oder_ust": true
+      },
+      "b": {
+       "nr": "290165",
+       "name": "Nielsen Teknik A/S",
+       "plz": "8000",
+       "ort": "Aarhus",
+       "iban_oder_ust": true
+      },
+      "score": 76.9
+     },
+     {
+      "objekt": "DEBI",
+      "a": {
+       "nr": "290143",
+       "name": "Meier Messtechnik AG",
+       "plz": "4051",
+       "ort": "Basel",
+       "iban_oder_ust": false
+      },
+      "b": {
+       "nr": "290211",
+       "name": "Keller Messtechnik AG",
+       "plz": "4051",
+       "ort": "Basel",
+       "iban_oder_ust": false
+      },
+      "score": 75.0
+     },
+     {
+      "objekt": "DEBI",
+      "a": {
+       "nr": "290165",
+       "name": "Nielsen Teknik A/S",
+       "plz": "8000",
+       "ort": "Aarhus",
+       "iban_oder_ust": true
+      },
+      "b": {
+       "nr": "290199",
+       "name": "Hansen Teknik A/S",
+       "plz": "8000",
+       "ort": "Aarhus",
+       "iban_oder_ust": true
+      },
+      "score": 87.0
+     }
+    ]
+   }
+  },
+  "pruef_seed_4242": {
+   "seed": 4242,
+   "umfang": {
+    "DEBI": 893,
+    "KRED": 698
+   },
+   "wahre_cluster": {
+    "DEBI": 32,
+    "KRED": 29
+   },
+   "gefundene_cluster": {
+    "DEBI": 32,
+    "KRED": 28
+   },
+   "vergleiche_ohne_blocking": {
+    "DEBI": 398278,
+    "KRED": 243253
+   },
+   "vergleiche_mit_blocking": {
+    "DEBI": 4603,
+    "KRED": 2859
+   },
+   "kandidaten_je_pass": {
+    "DEBI": {
+     "PLZ": 2701,
+     "IBAN/USt": 32,
+     "Namensanfang": 1973
+    },
+    "KRED": {
+     "PLZ": 1660,
+     "IBAN/USt": 45,
+     "Namensanfang": 1258
+    }
+   },
+   "ab_75": {
+    "schwelle": 75,
+    "tp": 101,
+    "fp": 1,
+    "fn": 4,
+    "wahre_paare": 105,
+    "precision": 0.9902,
+    "recall": 0.9619,
+    "f1": 0.9758,
+    "blocking_recall": 0.981,
+    "vergleiche_ohne_blocking": 641531,
+    "vergleiche_mit_blocking": 7462
+   },
+   "ab_90": {
+    "schwelle": 90,
+    "tp": 92,
+    "fp": 0,
+    "fn": 13,
+    "wahre_paare": 105,
+    "precision": 1.0,
+    "recall": 0.8762,
+    "f1": 0.934,
+    "blocking_recall": 0.981,
+    "vergleiche_ohne_blocking": 641531,
+    "vergleiche_mit_blocking": 7462
+   },
+   "laufzeit_sekunden": 0.253,
+   "fehlerfaelle_ab_75": {
+    "fn": [
+     {
+      "objekt": "DEBI",
+      "a": {
+       "nr": "220780",
+       "name": "Brenner Kältetechnik e.K.",
+       "plz": "34117",
+       "ort": "Kassel",
+       "iban_oder_ust": false
+      },
+      "b": {
+       "nr": "220783",
+       "name": "Kältetechnik Brenner e.K.",
+       "plz": "37079",
+       "ort": "Göttingen",
+       "iban_oder_ust": false
+      },
+      "score": null,
+      "grund": "nicht verglichen (kein Blocking-Pass)"
+     },
+     {
+      "objekt": "KRED",
+      "a": {
+       "nr": "123723",
+       "name": "Ebert Messtechnik e.K.",
+       "plz": "64283",
+       "ort": "Darmstadt",
+       "iban_oder_ust": false
+      },
+      "b": {
+       "nr": "123729",
+       "name": "Messtechnik Ebert e.K.",
+       "plz": "36037",
+       "ort": "Fulda",
+       "iban_oder_ust": false
+      },
+      "score": null,
+      "grund": "nicht verglichen (kein Blocking-Pass)"
+     },
+     {
+      "objekt": "KRED",
+      "a": {
+       "nr": "124527",
+       "name": "Nahe Anlagenbau GmbH",
+       "plz": "52062",
+       "ort": "Aachen",
+       "iban_oder_ust": true
+      },
+      "b": {
+       "nr": "124651",
+       "name": "Nahe Anlagenbau GmbH",
+       "plz": "04319",
+       "ort": "Leipzig",
+       "iban_oder_ust": true
+      },
+      "score": 68.3,
+      "grund": "Score unter 75"
+     },
+     {
+      "objekt": "KRED",
+      "a": {
+       "nr": "124596",
+       "name": "Nahe Anlagenbau GmbH",
+       "plz": "09111",
+       "ort": "Chemnitz",
+       "iban_oder_ust": true
+      },
+      "b": {
+       "nr": "124651",
+       "name": "Nahe Anlagenbau GmbH",
+       "plz": "04319",
+       "ort": "Leipzig",
+       "iban_oder_ust": true
+      },
+      "score": 71.0,
+      "grund": "Score unter 75"
+     }
+    ],
+    "fp": [
+     {
+      "objekt": "DEBI",
+      "a": {
+       "nr": "290036",
+       "name": "Widmer Präzision AG",
+       "plz": "4051",
+       "ort": "Basel",
+       "iban_oder_ust": true
+      },
+      "b": {
+       "nr": "290152",
+       "name": "Suter Präzision AG",
+       "plz": "4051",
+       "ort": "Basel",
+       "iban_oder_ust": false
+      },
+      "score": 82.7
+     }
+    ]
+   }
+  }
+ },
+ "golden_record_vorschlaege": 63,
+ "verlauf": [
+  {
+   "monatsende": "2025-10-31",
+   "DAMA-Gesamtscore": 91.48,
+   "Migration-Readiness-Quote": 70.49,
+   "Offene Dublettencluster": 37,
+   "Blocker-Befunde": 51,
+   "Archivierungskandidaten": 1261,
+   "Score Vollständigkeit": 99.24,
+   "Score Gültigkeit": 99.21,
+   "Score Eindeutigkeit": 95.41,
+   "Score Konsistenz": 98.79,
+   "Score Aktualität": 64.76,
+   "Sätze": 1505,
+   "Befunde": 1397
+  },
+  {
+   "monatsende": "2025-11-30",
+   "DAMA-Gesamtscore": 91.44,
+   "Migration-Readiness-Quote": 69.55,
+   "Offene Dublettencluster": 37,
+   "Blocker-Befunde": 52,
+   "Archivierungskandidaten": 1267,
+   "Score Vollständigkeit": 99.23,
+   "Score Gültigkeit": 99.19,
+   "Score Eindeutigkeit": 95.42,
+   "Score Konsistenz": 98.77,
+   "Score Aktualität": 64.6,
+   "Sätze": 1510,
+   "Befunde": 1409
+  },
+  {
+   "monatsende": "2025-12-31",
+   "DAMA-Gesamtscore": 91.42,
+   "Migration-Readiness-Quote": 68.02,
+   "Offene Dublettencluster": 38,
+   "Blocker-Befunde": 54,
+   "Archivierungskandidaten": 1273,
+   "Score Vollständigkeit": 99.19,
+   "Score Gültigkeit": 99.19,
+   "Score Eindeutigkeit": 95.37,
+   "Score Konsistenz": 98.74,
+   "Score Aktualität": 64.59,
+   "Sätze": 1520,
+   "Befunde": 1432
+  },
+  {
+   "monatsende": "2026-01-31",
+   "DAMA-Gesamtscore": 91.42,
+   "Migration-Readiness-Quote": 68.4,
+   "Offene Dublettencluster": 38,
+   "Blocker-Befunde": 54,
+   "Archivierungskandidaten": 1275,
+   "Score Vollständigkeit": 99.19,
+   "Score Gültigkeit": 99.18,
+   "Score Eindeutigkeit": 95.39,
+   "Score Konsistenz": 98.76,
+   "Score Aktualität": 64.59,
+   "Sätze": 1525,
+   "Befunde": 1437
+  },
+  {
+   "monatsende": "2026-02-28",
+   "DAMA-Gesamtscore": 91.45,
+   "Migration-Readiness-Quote": 67.57,
+   "Offene Dublettencluster": 38,
+   "Blocker-Befunde": 58,
+   "Archivierungskandidaten": 1275,
+   "Score Vollständigkeit": 99.15,
+   "Score Gültigkeit": 99.18,
+   "Score Eindeutigkeit": 95.38,
+   "Score Konsistenz": 98.73,
+   "Score Aktualität": 64.8,
+   "Sätze": 1534,
+   "Befunde": 1451
+  },
+  {
+   "monatsende": "2026-03-31",
+   "DAMA-Gesamtscore": 91.66,
+   "Migration-Readiness-Quote": 65.53,
+   "Offene Dublettencluster": 36,
+   "Blocker-Befunde": 62,
+   "Archivierungskandidaten": 1277,
+   "Score Vollständigkeit": 99.14,
+   "Score Gültigkeit": 99.2,
+   "Score Eindeutigkeit": 95.48,
+   "Score Konsistenz": 98.72,
+   "Score Aktualität": 65.78,
+   "Sätze": 1541,
+   "Befunde": 1425
+  },
+  {
+   "monatsende": "2026-04-30",
+   "DAMA-Gesamtscore": 91.92,
+   "Migration-Readiness-Quote": 65.67,
+   "Offene Dublettencluster": 36,
+   "Blocker-Befunde": 62,
+   "Archivierungskandidaten": 1278,
+   "Score Vollständigkeit": 99.17,
+   "Score Gültigkeit": 99.25,
+   "Score Eindeutigkeit": 95.45,
+   "Score Konsistenz": 98.75,
+   "Score Aktualität": 66.96,
+   "Sätze": 1546,
+   "Befunde": 1381
+  },
+  {
+   "monatsende": "2026-05-31",
+   "DAMA-Gesamtscore": 92.44,
+   "Migration-Readiness-Quote": 66.55,
+   "Offene Dublettencluster": 32,
+   "Blocker-Befunde": 64,
+   "Archivierungskandidaten": 1280,
+   "Score Vollständigkeit": 99.22,
+   "Score Gültigkeit": 99.34,
+   "Score Eindeutigkeit": 95.58,
+   "Score Konsistenz": 98.79,
+   "Score Aktualität": 69.29,
+   "Sätze": 1555,
+   "Befunde": 1291
+  },
+  {
+   "monatsende": "2026-06-30",
+   "DAMA-Gesamtscore": 93.05,
+   "Migration-Readiness-Quote": 64.44,
+   "Offene Dublettencluster": 33,
+   "Blocker-Befunde": 74,
+   "Archivierungskandidaten": 1283,
+   "Score Vollständigkeit": 99.28,
+   "Score Gültigkeit": 99.46,
+   "Score Eindeutigkeit": 95.43,
+   "Score Konsistenz": 98.79,
+   "Score Aktualität": 72.31,
+   "Sätze": 1567,
+   "Befunde": 1189
+  },
+  {
+   "monatsende": "2026-07-31",
+   "DAMA-Gesamtscore": 93.67,
+   "Migration-Readiness-Quote": 64.01,
+   "Offene Dublettencluster": 29,
+   "Blocker-Befunde": 80,
+   "Archivierungskandidaten": 1284,
+   "Score Vollständigkeit": 99.32,
+   "Score Gültigkeit": 99.54,
+   "Score Eindeutigkeit": 95.44,
+   "Score Konsistenz": 98.8,
+   "Score Aktualität": 75.26,
+   "Sätze": 1573,
+   "Befunde": 1085
+  },
+  {
+   "monatsende": "2026-08-31",
+   "DAMA-Gesamtscore": 94.1,
+   "Migration-Readiness-Quote": 64.21,
+   "Offene Dublettencluster": 26,
+   "Blocker-Befunde": 81,
+   "Archivierungskandidaten": 1287,
+   "Score Vollständigkeit": 99.31,
+   "Score Gültigkeit": 99.6,
+   "Score Eindeutigkeit": 95.8,
+   "Score Konsistenz": 98.79,
+   "Score Aktualität": 77.0,
+   "Sätze": 1586,
+   "Befunde": 1024
+  },
+  {
+   "monatsende": "2026-09-30",
+   "DAMA-Gesamtscore": 94.37,
+   "Migration-Readiness-Quote": 65.48,
+   "Offene Dublettencluster": 25,
+   "Blocker-Befunde": 84,
+   "Archivierungskandidaten": 1288,
+   "Score Vollständigkeit": 99.32,
+   "Score Gültigkeit": 99.65,
+   "Score Eindeutigkeit": 95.81,
+   "Score Konsistenz": 98.82,
+   "Score Aktualität": 78.23,
+   "Sätze": 1598,
+   "Befunde": 987
+  }
+ ],
+ "verursacher": [
+  {
+   "benutzer": "Alterung/Zeitablauf",
+   "neue_befunde": 40,
+   "erledigte_befunde": 35
+  },
+  {
+   "benutzer": "DEB_SACHB1",
+   "neue_befunde": 15,
+   "erledigte_befunde": 0
+  },
+  {
+   "benutzer": "EINKAUF_07",
+   "neue_befunde": 18,
+   "erledigte_befunde": 0
+  },
+  {
+   "benutzer": "KRED_SACHB1",
+   "neue_befunde": 1,
+   "erledigte_befunde": 0
+  },
+  {
+   "benutzer": "KRED_SACHB2",
+   "neue_befunde": 1,
+   "erledigte_befunde": 1
+  },
+  {
+   "benutzer": "KRED_SACHB3",
+   "neue_befunde": 30,
+   "erledigte_befunde": 0
+  },
+  {
+   "benutzer": "MDG_PROJEKT",
+   "neue_befunde": 0,
+   "erledigte_befunde": 247
+  },
+  {
+   "benutzer": "STAMM_ZENTRAL",
+   "neue_befunde": 14,
+   "erledigte_befunde": 291
+  },
+  {
+   "benutzer": "VERTRIEB_03",
+   "neue_befunde": 45,
+   "erledigte_befunde": 0
+  }
+ ],
+ "zerlegung_readiness": {
+  "Alterung/Zeitablauf": -0.96,
+  "Neuanlagen bereit": 5.62,
+  "bereinigt": 4.87,
+  "neue Blocker durch Neuanlagen": -10.75,
+  "verschlechtert durch Änderung": -3.79
+ },
+ "zerlegung_je_monat": [
+  {
+   "monatsende": "2025-11-30",
+   "ursache": "Alterung/Zeitablauf",
+   "benutzer": "",
+   "beitrag_pp": -0.317
+  },
+  {
+   "monatsende": "2025-11-30",
+   "ursache": "Neuanlagen bereit",
+   "benutzer": "VERTRIEB_03",
+   "beitrag_pp": 0.243
+  },
+  {
+   "monatsende": "2025-11-30",
+   "ursache": "neue Blocker durch Neuanlagen",
+   "benutzer": "KRED_SACHB3",
+   "beitrag_pp": -0.29
+  },
+  {
+   "monatsende": "2025-11-30",
+   "ursache": "neue Blocker durch Neuanlagen",
+   "benutzer": "STAMM_ZENTRAL",
+   "beitrag_pp": -0.58
+  },
+  {
+   "monatsende": "2025-12-31",
+   "ursache": "Alterung/Zeitablauf",
+   "benutzer": "",
+   "beitrag_pp": -0.335
+  },
+  {
+   "monatsende": "2025-12-31",
+   "ursache": "Neuanlagen bereit",
+   "benutzer": "KRED_SACHB3",
+   "beitrag_pp": 0.37
+  },
+  {
+   "monatsende": "2025-12-31",
+   "ursache": "Neuanlagen bereit",
+   "benutzer": "STAMM_ZENTRAL",
+   "beitrag_pp": 0.247
+  },
+  {
+   "monatsende": "2025-12-31",
+   "ursache": "neue Blocker durch Neuanlagen",
+   "benutzer": "STAMM_ZENTRAL",
+   "beitrag_pp": -0.563
+  },
+  {
+   "monatsende": "2025-12-31",
+   "ursache": "neue Blocker durch Neuanlagen",
+   "benutzer": "VERTRIEB_03",
+   "beitrag_pp": -0.845
+  },
+  {
+   "monatsende": "2025-12-31",
+   "ursache": "verschlechtert durch Änderung",
+   "benutzer": "EINKAUF_07",
+   "beitrag_pp": -0.405
+  },
+  {
+   "monatsende": "2026-01-31",
+   "ursache": "Alterung/Zeitablauf",
+   "benutzer": "",
+   "beitrag_pp": 0.144
+  },
+  {
+   "monatsende": "2026-01-31",
+   "ursache": "Neuanlagen bereit",
+   "benutzer": "STAMM_ZENTRAL",
+   "beitrag_pp": 0.256
+  },
+  {
+   "monatsende": "2026-01-31",
+   "ursache": "Neuanlagen bereit",
+   "benutzer": "VERTRIEB_03",
+   "beitrag_pp": 0.256
+  },
+  {
+   "monatsende": "2026-01-31",
+   "ursache": "neue Blocker durch Neuanlagen",
+   "benutzer": "STAMM_ZENTRAL",
+   "beitrag_pp": -0.272
+  },
+  {
+   "monatsende": "2026-02-28",
+   "ursache": "Neuanlagen bereit",
+   "benutzer": "EINKAUF_07",
+   "beitrag_pp": 0.122
+  },
+  {
+   "monatsende": "2026-02-28",
+   "ursache": "Neuanlagen bereit",
+   "benutzer": "STAMM_ZENTRAL",
+   "beitrag_pp": 0.122
+  },
+  {
+   "monatsende": "2026-02-28",
+   "ursache": "Neuanlagen bereit",
+   "benutzer": "VERTRIEB_03",
+   "beitrag_pp": 0.244
+  },
+  {
+   "monatsende": "2026-02-28",
+   "ursache": "neue Blocker durch Neuanlagen",
+   "benutzer": "KRED_SACHB3",
+   "beitrag_pp": -0.264
+  },
+  {
+   "monatsende": "2026-02-28",
+   "ursache": "neue Blocker durch Neuanlagen",
+   "benutzer": "STAMM_ZENTRAL",
+   "beitrag_pp": -0.264
+  },
+  {
+   "monatsende": "2026-02-28",
+   "ursache": "neue Blocker durch Neuanlagen",
+   "benutzer": "VERTRIEB_03",
+   "beitrag_pp": -0.792
+  },
+  {
+   "monatsende": "2026-03-31",
+   "ursache": "Alterung/Zeitablauf",
+   "benutzer": "",
+   "beitrag_pp": -0.624
+  },
+  {
+   "monatsende": "2026-03-31",
+   "ursache": "Neuanlagen bereit",
+   "benutzer": "KRED_SACHB3",
+   "beitrag_pp": 0.123
+  },
+  {
+   "monatsende": "2026-03-31",
+   "ursache": "Neuanlagen bereit",
+   "benutzer": "STAMM_ZENTRAL",
+   "beitrag_pp": 0.123
+  },
+  {
+   "monatsende": "2026-03-31",
+   "ursache": "Neuanlagen bereit",
+   "benutzer": "VERTRIEB_03",
+   "beitrag_pp": 0.123
+  },
+  {
+   "monatsende": "2026-03-31",
+   "ursache": "neue Blocker durch Neuanlagen",
+   "benutzer": "VERTRIEB_03",
+   "beitrag_pp": -1.024
+  },
+  {
+   "monatsende": "2026-03-31",
+   "ursache": "verschlechtert durch Änderung",
+   "benutzer": "KRED_SACHB3",
+   "beitrag_pp": -0.758
+  },
+  {
+   "monatsende": "2026-04-30",
+   "ursache": "Alterung/Zeitablauf",
+   "benutzer": "",
+   "beitrag_pp": 0.373
+  },
+  {
+   "monatsende": "2026-04-30",
+   "ursache": "Neuanlagen bereit",
+   "benutzer": "STAMM_ZENTRAL",
+   "beitrag_pp": 0.257
+  },
+  {
+   "monatsende": "2026-04-30",
+   "ursache": "Neuanlagen bereit",
+   "benutzer": "VERTRIEB_03",
+   "beitrag_pp": 0.257
+  },
+  {
+   "monatsende": "2026-04-30",
+   "ursache": "bereinigt",
+   "benutzer": "MDG_PROJEKT",
+   "beitrag_pp": 0.373
+  },
+  {
+   "monatsende": "2026-04-30",
+   "ursache": "neue Blocker durch Neuanlagen",
+   "benutzer": "STAMM_ZENTRAL",
+   "beitrag_pp": -0.245
+  },
+  {
+   "monatsende": "2026-04-30",
+   "ursache": "verschlechtert durch Änderung",
+   "benutzer": "KRED_SACHB3",
+   "beitrag_pp": -0.746
+  },
+  {
+   "monatsende": "2026-04-30",
+   "ursache": "verschlechtert durch Änderung",
+   "benutzer": "STAMM_ZENTRAL",
+   "beitrag_pp": -0.129
+  },
+  {
+   "monatsende": "2026-05-31",
+   "ursache": "Alterung/Zeitablauf",
+   "benutzer": "",
+   "beitrag_pp": -0.25
+  },
+  {
+   "monatsende": "2026-05-31",
+   "ursache": "Neuanlagen bereit",
+   "benutzer": "STAMM_ZENTRAL",
+   "beitrag_pp": 0.25
+  },
+  {
+   "monatsende": "2026-05-31",
+   "ursache": "Neuanlagen bereit",
+   "benutzer": "VERTRIEB_03",
+   "beitrag_pp": 0.374
+  },
+  {
+   "monatsende": "2026-05-31",
+   "ursache": "bereinigt",
+   "benutzer": "MDG_PROJEKT",
+   "beitrag_pp": 0.727
+  },
+  {
+   "monatsende": "2026-05-31",
+   "ursache": "bereinigt",
+   "benutzer": "STAMM_ZENTRAL",
+   "beitrag_pp": 1.455
+  },
+  {
+   "monatsende": "2026-05-31",
+   "ursache": "neue Blocker durch Neuanlagen",
+   "benutzer": "STAMM_ZENTRAL",
+   "beitrag_pp": -0.239
+  },
+  {
+   "monatsende": "2026-05-31",
+   "ursache": "neue Blocker durch Neuanlagen",
+   "benutzer": "VERTRIEB_03",
+   "beitrag_pp": -0.716
+  },
+  {
+   "monatsende": "2026-05-31",
+   "ursache": "verschlechtert durch Änderung",
+   "benutzer": "EINKAUF_07",
+   "beitrag_pp": -0.727
+  },
+  {
+   "monatsende": "2026-06-30",
+   "ursache": "Alterung/Zeitablauf",
+   "benutzer": "",
+   "beitrag_pp": -0.236
+  },
+  {
+   "monatsende": "2026-06-30",
+   "ursache": "Neuanlagen bereit",
+   "benutzer": "STAMM_ZENTRAL",
+   "beitrag_pp": 0.236
+  },
+  {
+   "monatsende": "2026-06-30",
+   "ursache": "Neuanlagen bereit",
+   "benutzer": "VERTRIEB_03",
+   "beitrag_pp": 0.118
+  },
+  {
+   "monatsende": "2026-06-30",
+   "ursache": "neue Blocker durch Neuanlagen",
+   "benutzer": "EINKAUF_07",
+   "beitrag_pp": -0.234
+  },
+  {
+   "monatsende": "2026-06-30",
+   "ursache": "neue Blocker durch Neuanlagen",
+   "benutzer": "KRED_SACHB3",
+   "beitrag_pp": -0.469
+  },
+  {
+   "monatsende": "2026-06-30",
+   "ursache": "neue Blocker durch Neuanlagen",
+   "benutzer": "VERTRIEB_03",
+   "beitrag_pp": -1.172
+  },
+  {
+   "monatsende": "2026-06-30",
+   "ursache": "verschlechtert durch Änderung",
+   "benutzer": "KRED_SACHB3",
+   "beitrag_pp": -0.352
+  },
+  {
+   "monatsende": "2026-07-31",
+   "ursache": "Alterung/Zeitablauf",
+   "benutzer": "",
+   "beitrag_pp": -0.469
+  },
+  {
+   "monatsende": "2026-07-31",
+   "ursache": "Neuanlagen bereit",
+   "benutzer": "STAMM_ZENTRAL",
+   "beitrag_pp": 0.123
+  },
+  {
+   "monatsende": "2026-07-31",
+   "ursache": "Neuanlagen bereit",
+   "benutzer": "VERTRIEB_03",
+   "beitrag_pp": 0.246
+  },
+  {
+   "monatsende": "2026-07-31",
+   "ursache": "bereinigt",
+   "benutzer": "STAMM_ZENTRAL",
+   "beitrag_pp": 0.346
+  },
+  {
+   "monatsende": "2026-07-31",
+   "ursache": "neue Blocker durch Neuanlagen",
+   "benutzer": "KRED_SACHB3",
+   "beitrag_pp": -0.223
+  },
+  {
+   "monatsende": "2026-07-31",
+   "ursache": "neue Blocker durch Neuanlagen",
+   "benutzer": "VERTRIEB_03",
+   "beitrag_pp": -0.446
+  },
+  {
+   "monatsende": "2026-08-31",
+   "ursache": "Alterung/Zeitablauf",
+   "benutzer": "",
+   "beitrag_pp": 0.428
+  },
+  {
+   "monatsende": "2026-08-31",
+   "ursache": "Neuanlagen bereit",
+   "benutzer": "EINKAUF_07",
+   "beitrag_pp": 0.12
+  },
+  {
+   "monatsende": "2026-08-31",
+   "ursache": "Neuanlagen bereit",
+   "benutzer": "KRED_SACHB3",
+   "beitrag_pp": 0.12
+  },
+  {
+   "monatsende": "2026-08-31",
+   "ursache": "Neuanlagen bereit",
+   "benutzer": "STAMM_ZENTRAL",
+   "beitrag_pp": 0.361
+  },
+  {
+   "monatsende": "2026-08-31",
+   "ursache": "Neuanlagen bereit",
+   "benutzer": "VERTRIEB_03",
+   "beitrag_pp": 0.12
+  },
+  {
+   "monatsende": "2026-08-31",
+   "ursache": "bereinigt",
+   "benutzer": "STAMM_ZENTRAL",
+   "beitrag_pp": 1.003
+  },
+  {
+   "monatsende": "2026-08-31",
+   "ursache": "neue Blocker durch Neuanlagen",
+   "benutzer": "EINKAUF_07",
+   "beitrag_pp": -0.214
+  },
+  {
+   "monatsende": "2026-08-31",
+   "ursache": "neue Blocker durch Neuanlagen",
+   "benutzer": "STAMM_ZENTRAL",
+   "beitrag_pp": -0.428
+  },
+  {
+   "monatsende": "2026-08-31",
+   "ursache": "neue Blocker durch Neuanlagen",
+   "benutzer": "VERTRIEB_03",
+   "beitrag_pp": -0.642
+  },
+  {
+   "monatsende": "2026-08-31",
+   "ursache": "verschlechtert durch Änderung",
+   "benutzer": "EINKAUF_07",
+   "beitrag_pp": -0.334
+  },
+  {
+   "monatsende": "2026-08-31",
+   "ursache": "verschlechtert durch Änderung",
+   "benutzer": "KRED_SACHB3",
+   "beitrag_pp": -0.334
+  },
+  {
+   "monatsende": "2026-09-30",
+   "ursache": "Alterung/Zeitablauf",
+   "benutzer": "",
+   "beitrag_pp": 0.323
+  },
+  {
+   "monatsende": "2026-09-30",
+   "ursache": "Neuanlagen bereit",
+   "benutzer": "STAMM_ZENTRAL",
+   "beitrag_pp": 0.231
+  },
+  {
+   "monatsende": "2026-09-30",
+   "ursache": "Neuanlagen bereit",
+   "benutzer": "VERTRIEB_03",
+   "beitrag_pp": 0.577
+  },
+  {
+   "monatsende": "2026-09-30",
+   "ursache": "bereinigt",
+   "benutzer": "STAMM_ZENTRAL",
+   "beitrag_pp": 0.968
+  },
+  {
+   "monatsende": "2026-09-30",
+   "ursache": "neue Blocker durch Neuanlagen",
+   "benutzer": "EINKAUF_07",
+   "beitrag_pp": -0.207
+  },
+  {
+   "monatsende": "2026-09-30",
+   "ursache": "neue Blocker durch Neuanlagen",
+   "benutzer": "VERTRIEB_03",
+   "beitrag_pp": -0.621
+  }
+ ],
+ "laufzeiten_sekunden": {
+  "gesamtlauf": 0.57,
+  "verlauf_12_monate_median_kalt": 0.99
+ }
+}

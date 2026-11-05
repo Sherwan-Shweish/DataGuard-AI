@@ -1,0 +1,19 @@
+Python 3.12.3 · Linux x86_64
+
+OK streamlit    1.66.1     
+OK altair       6.3.0      
+OK pyarrow      26.0.1     
+OK pandas       3.1.0      
+OK numpy        2.5.4      
+OK rapidfuzz    3.14.6     
+OK pydantic     2.14.2     
+OK python-pptx  1.0.2      
+OK reportlab    5.1.0      
+OK openpyxl     3.1.5      
+
+OK Suite: 12 aktive Debitoren, 6 aktive Kreditoren
+OK Suite: Umsatz 2025 = 83.873.069,96 € (VarianceAI)
+OK Suite: K101 letzte Faktura 03.09.2026
+OK Suite: IBAN 100100 wie FlowAudit-AI
+OK Suite: Umsatz/HK 2025 je Kunde centgleich ControllAI
+OK Datenbank: dataguard.db
