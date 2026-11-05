@@ -1,7 +1,6 @@
 # DataGuard-AI · Stammdaten-Copilot
 
-<!-- Live-Demo: nach dem Deploy anpassen (Link wird separat gesetzt) -->
-[![Live-Demo](https://img.shields.io/badge/Live--Demo-folgt-lightgrey)](#)
+[DataGuard-AI Live App](https://dataguard-ai-shweish.streamlit.app/)
 [![Tests](https://img.shields.io/badge/Tests-317%20bestanden-brightgreen)](docs/pytest-python313.txt)
 [![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.13-blue)](pyproject.toml)
 [![Offline](https://img.shields.io/badge/Demo-ohne%20API--Key-0A66C2)](#schnellstart)
